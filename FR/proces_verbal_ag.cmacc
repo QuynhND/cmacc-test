@@ -8,7 +8,7 @@ $ ag = [./proces_verbal_form.cmacc] => {
 	"ag_presents" : "presents",
 	"ag_rep_actionnaires" : "100%",
 	"ag_rep_capital" : "100%",
-	"ag_president_nom" : person.name_First person.name_Last
+	"ag_president_nom" : "person.name_First person.name_Last"
 };
 
 {{ag}}

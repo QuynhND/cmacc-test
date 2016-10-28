@@ -1,0 +1,55 @@
+$ party1 = [../ID/MarcDangeard.cmacc];
+
+$ party2 = [../ID/solomon_shirley.cmacc];
+
+$ party3 = [../ID/gerrys_grapes_llc.cmacc];
+
+$ party4 = [../ID/safe_hands_inc.cmacc];
+
+$ signParty1 = [../Form/_sign.cmacc] => {
+	"role" : "Party1",
+	"person" : party1
+};
+
+$ signParty2 = [../Form/_sign.cmacc] => {
+	"role" : "Party2",
+	"person" : party2
+};
+
+$ signParty3 = [../Form/_sign.cmacc] => {
+	"role" : "Party3",
+	"person" : party3.sign_Rep
+};
+
+$ signParty4 = [../Form/_sign.cmacc] => {
+	"role" : "Party4",
+	"person" : party4.sign_Rep
+};
+
+IN WITNESS WHEREOF, the undersigned have caused this instrument to be duly executed and delivered.
+
+
+<table width="100%">
+<tr>
+<td>{{signParty1}}</td>
+<td>{{signParty2}}</td>
+</tr><tr>
+<td>{{signParty3}}</td>
+<td>{{signParty4}}</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

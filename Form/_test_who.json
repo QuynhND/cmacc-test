@@ -1,0 +1,76 @@
+{
+    "party1": {
+        "name_First": "Marc",
+        "name_Last": "Dangeard",
+        "name_Full": "{{name_First}} {{name_Last}}",
+        "city": "Paris",
+        "gender": {
+            "he_she": "he",
+            "his_her": "his",
+            "He_She": "He",
+            "His_Her": "His",
+            "$$text$$": "",
+            "$$file$$": "/Users/Marc/SkyDrive/Documents/CommonAccord/cmaccnew/ID/gender/he.cmacc"
+        },
+        "pron": {
+            "meus": "me",
+            "Iwe": "I",
+            "myour": "my",
+            "IWe": "I",
+            "MyOur": "My",
+            "$$text$$": "",
+            "$$file$$": "/Users/Marc/SkyDrive/Documents/CommonAccord/cmaccnew/Form/_sing.cmacc"
+        },
+        "$$text$$": "",
+        "$$file$$": "/Users/Marc/SkyDrive/Documents/CommonAccord/cmaccnew/ID/MarcDangeard.cmacc"
+    },
+    "party2": {
+        "name_First": "James",
+        "name_Last": "Hazard",
+        "name_Full": "{{name_First}} {{name_Last}}",
+        "city": {
+            "name": "Boston",
+            "county": {
+                "name": "Suffolk",
+                "state": {
+                    "name": "Massachusetts",
+                    "statecode": "MA",
+                    "flower": "Mayflower",
+                    "constitution": "Constitution of the Commonwealth of Massachusetts",
+                    "country": {
+                        "name": "United States of America",
+                        "$$text$$": "",
+                        "$$file$$": "/Users/Marc/SkyDrive/Documents/CommonAccord/cmaccnew/geo/USA.cmacc"
+                    },
+                    "$$text$$": "",
+                    "$$file$$": "/Users/Marc/SkyDrive/Documents/CommonAccord/cmaccnew/geo/USA/MA.cmacc"
+                },
+                "$$text$$": "",
+                "$$file$$": "/Users/Marc/SkyDrive/Documents/CommonAccord/cmaccnew/geo/USA/MA/Suffolk.cmacc"
+            },
+            "$$text$$": "",
+            "$$file$$": "/Users/Marc/SkyDrive/Documents/CommonAccord/cmaccnew/geo/USA/MA/Suffolk/Boston.cmacc"
+        },
+        "gender": {
+            "he_she": "he",
+            "his_her": "his",
+            "He_She": "He",
+            "His_Her": "His",
+            "$$text$$": "",
+            "$$file$$": "/Users/Marc/SkyDrive/Documents/CommonAccord/cmaccnew/ID/gender/he.cmacc"
+        },
+        "pron": {
+            "meus": "me",
+            "Iwe": "I",
+            "myour": "my",
+            "IWe": "I",
+            "MyOur": "My",
+            "$$text$$": "",
+            "$$file$$": "/Users/Marc/SkyDrive/Documents/CommonAccord/cmaccnew/Form/_sing.cmacc"
+        },
+        "$$text$$": "",
+        "$$file$$": "/Users/Marc/SkyDrive/Documents/CommonAccord/cmaccnew/ID/JamesHazard.cmacc"
+    },
+    "$$text$$": "This agreement is between {{party1.name_Full}} and {{party2.name_Full}}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "$$file$$": "/Users/Marc/SkyDrive/Documents/CommonAccord/cmaccnew/Form/_test_who.cmacc"
+}

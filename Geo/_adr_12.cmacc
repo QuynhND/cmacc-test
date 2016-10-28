@@ -1,0 +1,9 @@
+$ adr = [./country/state/county/city/street/streetnum/_geo.cmacc];
+
+{{adr.streetnum}} {{adr.street.name}}, {{adr.street.city.name}}, {{adr.street.city.county.state.statecode}} {{adr.zip}}
+
+
+
+
+
+

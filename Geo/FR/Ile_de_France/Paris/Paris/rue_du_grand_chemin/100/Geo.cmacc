@@ -1,0 +1,5 @@
+$ streetnum = "100";
+
+$ zip = "75022";
+
+$ street = [../../rue_du_grand_chemin.cmacc];

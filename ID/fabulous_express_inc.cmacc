@@ -1,0 +1,17 @@
+$ adr = [../Geo/USA/TX/Travis/Austin/AlamoWay/333/Geo.cmacc];
+
+$ name_Full = "Fabulous Express, Inc.";
+
+$ name_Dear = "Fabulous Express";
+
+$ entity_a = "a Delaware corporation";
+
+$ adr_Type = "business";
+
+$ sign_RepTitle = "sign_RepTitle";
+
+$ sign_Rep = [../US/_individual.cmacc];
+
+$ pron = [../Form/_plur.cmacc];
+
+

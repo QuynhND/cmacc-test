@@ -1,0 +1,20 @@
+$ person = [../ID/_individual.cmacc];
+
+$ name_Full = "{{person.name_Full}}";
+
+$ name_Dear = "{{person.name_Formal}}";
+
+$ gov_ID_Number = "gov_ID_Number";
+
+$ entity_a = "an individual";
+
+$ adr = [../Geo/country/state/county/city/street/streetnum/_geo.cmacc];
+
+$ adr_Type = "personal";
+
+$ sign_Rep = [../ID/_individual.cmacc];
+
+$ sign_Title = "Self";
+
+$ pron = [../Form/_sing.cmacc];
+

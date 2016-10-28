@@ -1,0 +1,20 @@
+$ name_First = "Marc";
+
+$ name_Last = "Dangeard";
+
+$ name_Full = "{{name_First}} {{name_Last}}";
+
+$ name_Formal = "M. Dangeard";
+
+$ sign_Title = "Self";
+
+$ email = "marc@dangeard.com";
+
+$ adr = [../Geo/FR/Ile_de_France/Paris/Paris/rue Doucement/999/Geo.cmacc];
+
+$ adr_Type = "personal";
+
+$ gender = [./gender/he.cmacc];
+
+$ pron = [../Form/_sing.cmacc];
+

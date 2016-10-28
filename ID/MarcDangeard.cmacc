@@ -1,0 +1,12 @@
+$ name_First = "Marc";
+
+$ name_Last = "Dangeard";
+
+$ name_Full = "{{name_First}} {{name_Last}}";
+
+$ city = "Paris";
+
+$ gender = [./gender/he.cmacc];
+
+$ pron = [../Form/_sing.cmacc];
+

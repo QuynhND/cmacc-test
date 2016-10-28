@@ -1,0 +1,16 @@
+$ name_Full = "Safe Hands Facilitated Transactions, Inc.";
+
+$ name_Dear = "Safe Hands Facilitated Transactions";
+
+$ entity_a = "a Delaware corporation";
+
+$ adr = [../Geo/USA/CA/San_Francisco/San_Francisco/BaySt/1550/Geo.cmacc];
+
+$ adr_Type = "principal";
+
+$ sign_RepTitle = "COO";
+
+$ sign_Rep = [../ID/samuel_hardy.cmacc];
+
+$ pron = [../Form/_plur.cmacc];
+

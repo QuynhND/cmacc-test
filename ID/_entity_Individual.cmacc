@@ -1,0 +1,28 @@
+$ person = [../ID/_individual.cmacc];
+
+$ name_Full = [../Form/_person_full.cmacc] => {
+	"person" : person
+};
+
+$ name_Dear = [../ID/_person_formal.cmacc] => {
+	"person" : person
+};
+
+$ gov_ID_Number = "gov_ID_Number";
+
+$ entity_a = "an individual";
+
+$ adr = [../Geo/country/state/county/city/street/streetnum/_geo.cmacc];
+
+$ adr_Type = "adr_Type";
+
+$ contact_Name_Formal = [../ID/_person_formal.cmacc] => {
+	"person" : person
+};
+
+$ sign_Rep = [../ID/_individual.cmacc];
+
+$ sign_Title = "Self";
+
+$ pron = [../Form/_sing.cmacc];
+

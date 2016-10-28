@@ -1,0 +1,3 @@
+$ acctID = "acctID"
+
+$ bank = [../bank.cmacc]

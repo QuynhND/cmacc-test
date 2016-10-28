@@ -1,0 +1,18 @@
+$ time_YMDH = "2016-09-22 15:58"
+
+$ deposited = [./Step4_deposit.cmacc] => {
+}
+
+$ action = [./present_Yes.cmacc] => 
+
+{{deposited}}
+---
+Presented by {{deposited.B2.name_Full}} to {{deposited.endorsed.signed.check.B1.name_Full}} at {{time_YMDH}}
+
+
+
+
+
+
+
+

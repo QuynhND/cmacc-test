@@ -1,0 +1,12 @@
+$ time_YMDH = "2016-09-22 16:05"
+
+$ accept = [./Step5_present.cmacc] => {
+}
+
+$ action = [./accept_Yes.cmacc] => 
+
+{{accept}}
+---
+Accepted by {{accept.presented.deposited.endorsed.signed.check.B1.name_Full}} at {{time_YMDH}}
+
+

@@ -1,0 +1,17 @@
+$ entity = [../ID/gerrys_grapes_llc.cmacc];
+
+$ address = [./_adr_12.cmacc] => {
+	"adr" : entity.adr
+};
+
+{{address}}
+
+
+
+
+
+
+
+
+
+

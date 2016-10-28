@@ -1,0 +1,26 @@
+$ gender = [./gender/She.cmacc];
+
+$ pron = [../Form/_sing.cmacc];
+
+$ name_First = "Roberta";
+
+$ name_Last = "Robinson";
+
+$ name_Full = "{{name_First}} {{name_Last}}";
+
+$ name_Formal = "Ms. Robinson";
+
+$ adr_Type = "business";
+
+$ phone = "918.981.8918";
+
+$ email_Bus = "roberta@robinsonandson.com";
+
+$ fax_Bus = "918.981.8918";
+
+$ sign_RepTitle = "Self";
+
+$ notice_Title = "Personal";
+
+$ adr = [../Geo/USA/NY/Ulster/Woodstock/WindingDr/666/Geo.cmacc];
+

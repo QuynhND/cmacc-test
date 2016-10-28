@@ -1,0 +1,19 @@
+$ name_First = "Geraldine";
+
+$ name_Last = "Graber";
+
+$ name_Full = "{{name_First}} {{name_Last}}";
+
+$ name_Formal = "Ms. Graber";
+
+$ adr_Type = "business";
+
+$ email_Bus = "gerry@gerrysgrapes.com";
+
+$ adr = [../Geo/USA/MA/Middlesex/Cambridge/BroadwaySt/1/Geo.cmacc];
+
+$ Sign_RepTitle = "Self";
+
+$ pron = [../Form/_sing.cmacc];
+
+$ gender = [./gender/she.cmacc];

@@ -1,0 +1,13 @@
+$ name_First = "James";
+
+$ name_Last = "Hazard";
+
+$ name_Full = "{{name_First}} {{name_Last}}";
+
+$ city = [../geo/USA/MA/Suffolk/Boston.cmacc];
+
+$ gender = [./gender/he.cmacc];
+
+$ pron = [../Form/_sing.cmacc];
+
+

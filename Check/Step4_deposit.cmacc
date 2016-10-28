@@ -1,0 +1,23 @@
+$ B2 = [../ID/Orange_bank.cmacc] => {
+}
+
+$ time_YMDH = "2016-09-22 15:55"
+
+$ endorsed = [./Step3_endorse.cmacc] => {
+}
+
+$ action = [./deposit_Yes.cmacc] => 
+
+{{endorsed}}
+---
+Deposited to {{B2.name_Full}} at {{time_YMDH}}
+
+
+
+
+
+
+
+
+
+

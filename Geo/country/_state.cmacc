@@ -1,0 +1,8 @@
+$ name = "state";
+
+$ statecode = "statecode";
+
+$ flower = "flower";
+
+$ country = [../_country.cmacc];
+

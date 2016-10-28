@@ -1,0 +1,34 @@
+$ what_section1 = "what section 1";
+
+$ what_section2 = "what section 2";
+
+$ 00 = [../Form/draft6.cmacc] => {
+};
+
+{{00.intro}}
+
+1. {{00.who}}
+
+2. What
+
+   2.1 {{what_section1}}
+
+   2.2 {{what_section2}}
+
+3. {{00.general.clause1}}
+
+{{00.closing}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

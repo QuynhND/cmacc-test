@@ -1,0 +1,19 @@
+$ name_Full = "Orange Bank";
+
+$ name_Dear = "name_Dear";
+
+$ gov_ID_Num = "12345";
+
+$ entity_a = "entity_a";
+
+$ adr = [../Geo/FR/Ile_de_France/Paris/Paris/rue_Taitbout/61/Geo.cmacc];
+
+$ adr_Type = "business";
+
+$ contact_Name_Formal = "contact_Name_Formal";
+
+$ sign_Rep = [../ID/_individual.cmacc];
+
+$ sign_Title = "sign_Title";
+
+$ pron = [../Form/_plur.cmacc];

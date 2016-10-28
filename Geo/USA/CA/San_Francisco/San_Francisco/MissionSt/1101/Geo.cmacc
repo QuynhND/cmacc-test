@@ -1,0 +1,5 @@
+$ streetnum = "1101";
+
+$ zip = "94103";
+
+$ street = [../../MissionSt.cmacc];

@@ -1,0 +1,26 @@
+$ name_Last = "Shirley";
+
+$ name_First = "Solomon";
+
+$ name_Full = "{{name_First}} {{name_Last}}";
+
+$ name_Formal = "M. Solomon";
+
+$ gender = [./gender/He.cmacc];
+
+$ pron = [../Form/_sing.cmacc];
+
+$ adr = [../Geo/USA/MA/Middlesex/Cambridge/MadisonSt/100/Geo.cmacc];
+
+$ adr_Type = "business";
+
+$ phone = "617.671.7617";
+
+$ fax = "617.555.1110";
+
+$ email = "solomon.shirley@gmail.com";
+
+$ atty = [../ID/samuel_hardy.cmacc];
+
+$ sign_RepTitle = "Self";
+

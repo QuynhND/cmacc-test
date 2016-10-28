@@ -1,0 +1,19 @@
+$ name_Full = "Gerry's Grapes, LLC";
+
+$ name_Dear = "Gerry's Grapes";
+
+$ entity_a = "a Massachusetts LLC";
+
+$ adr_Type = "business";
+
+$ claim_Response_Delay = "two business days from the date of the Claim";
+
+$ adr = [../Geo/USA/MA/Middlesex/Cambridge/BroadwaySt/1/Geo.cmacc];
+
+$ sign_RepTitle = "Founder";
+
+$ sign_Rep = [../ID/geraldine_graber.cmacc];
+
+$ pron = [../Form/_plur.cmacc];
+
+

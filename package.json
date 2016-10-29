@@ -1,0 +1,27 @@
+{
+  "name": "cmacc-test",
+  "version": "1.0.0",
+  "description": "Sample files for Cmacc",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdangear/cmacc-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdangear/cmacc-test/issues"
+  },
+  "homepage": "https://github.com/mdangear/cmacc-test#readme",
+  "dependencies": {
+    "cmacc-compiler": "wilmveel/cmacc-compiler#master"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "recursive-readdir": "^2.1.0",
+    "recursive-readdir-sync": "^1.0.6"
+  }
+}

@@ -1,6 +1,3 @@
-$ seller = [../US/_entity.cmacc] => {
-}
+$ seller = [../US/_entity.cmacc];
 
 {{seller.pron.IWe}} are pleased to inform you that {{seller.pron.Iwe}} have accepted your proposal.
-
-

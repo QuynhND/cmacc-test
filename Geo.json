@@ -1,0 +1,45 @@
+{
+    "streetnum": {
+        "$$str$$": "1150"
+    },
+    "zip": {
+        "$$str$$": "94123"
+    },
+    "street": {
+        "name": {
+            "$$str$$": "Bay St"
+        },
+        "city": {
+            "name": {
+                "$$str$$": "San Francisco"
+            },
+            "county": {
+                "name": {
+                    "$$str$$": "County of San Francisco"
+                },
+                "state": {
+                    "name": {
+                        "$$str$$": "California"
+                    },
+                    "statecode": {
+                        "$$str$$": "CA"
+                    },
+                    "flower": {
+                        "$$str$$": "Golden Poppy"
+                    },
+                    "country": {
+                        "name": {
+                            "$$str$$": "United States of America"
+                        },
+                        "$$file$$": "file:///Users/willemveelenturf/projects/commonaccord/cmacc-test/Geo/USA.cmacc"
+                    },
+                    "$$file$$": "file:///Users/willemveelenturf/projects/commonaccord/cmacc-test/Geo/USA/CA.cmacc"
+                },
+                "$$file$$": "file:///Users/willemveelenturf/projects/commonaccord/cmacc-test/Geo/USA/CA/San_Francisco.cmacc"
+            },
+            "$$file$$": "file:///Users/willemveelenturf/projects/commonaccord/cmacc-test/Geo/USA/CA/San_Francisco/San_Francisco.cmacc"
+        },
+        "$$file$$": "file:///Users/willemveelenturf/projects/commonaccord/cmacc-test/Geo/USA/CA/San_Francisco/San_Francisco/BaySt.cmacc"
+    },
+    "$$file$$": "file:///Users/willemveelenturf/projects/commonaccord/cmacc-test/Geo/USA/CA/San_Francisco/San_Francisco/BaySt/1550/Geo.cmacc"
+}

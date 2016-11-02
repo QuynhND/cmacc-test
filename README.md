@@ -57,3 +57,10 @@ $ name_Full = [../ID/_person_full.cmacc] => {
 };
 
 {{person.gender.His_Her}} name is {{name_Full}} and {{person.gender.he_she}} lives in {{person.city}}
+
+# Run test
+
+```
+npm install
+npm test
+```

@@ -4,7 +4,7 @@ $ adr_12 = [../Geo/FR/_adr_12.cmacc] => {
 	"adr" : entity.adr
 };
 
-{{entity.name_Full}}, {{entity.entity_a}} whose {{entity.adr_Type}} address is {{adr_12}}
+{{entity.name_Full}}, {{entity.entity_a}} dont {{entity.adr_Type}} est {{adr_12}}
 
 
 

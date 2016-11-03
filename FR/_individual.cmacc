@@ -2,6 +2,8 @@ $ name_First = "name_First";
 
 $ name_Last = "name_Last";
 
+$ name_Full = "{{name_First}} {{name_Last}}";
+
 $ name_Formal = "contact_Name_Formal";
 
 $ sign_Title = "sign_Title";

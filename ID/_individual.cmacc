@@ -2,7 +2,11 @@ $ name_First = "name_First";
 
 $ name_Last = "name_Last";
 
-$ name_Formal = "contact_Name_Formal";
+$ name_Full = "{{name_First}} {{name_Last}}";
+
+$ name_Prefix = "name_Prefix"
+
+$ name_Formal = "{{name_Prefix}} {{name_Last}}";
 
 $ sign_Title = "sign_Title";
 

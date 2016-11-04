@@ -1,0 +1,57 @@
+$ bank1 = [../FR/_entity.cmacc];
+
+$ bank1_adr12 = [../Geo/FR/_adr_12.cmacc] => {
+	"adr" : bank1.adr
+};
+
+$ party1 = [../FR/_entity.cmacc];
+
+$ party1_adr12 = [../Geo/FR/_adr_12.cmacc] => {
+	"entity" : party1.adr
+};
+
+$ party2 = [../FR/_entity.cmacc];
+
+$ party1_Acct_ID_Num = [../Acct/bank/acctID/acctnum/_acct.cmacc];
+
+$ check_ID_Num = "Check_ID_Number";
+
+$ amount_Text = "amount_Text";
+
+$ amount_Num = "Amount_Number";
+
+$ sign_Place = "sign_Place";
+
+$ sign_Date_YMD = "sign_Date_YMD";
+
+
+
+<table>
+<tr><td><h1>{{bank1.name_Full}}</h1><br>{{bank1_adr12}}</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td valign="top">{{party1.name_Full}} <br>{{party1_adr12}}</td>
+<td valign="top">Compte <br>{{party1_Acct_ID_Num.acctnum}}</td>
+</tr>
+<tr>
+<td>Payez contre ce chèque non endossable {{amount_Text}}<br> à {{party2.name_Full}}<br>
+<table>
+<tr>
+<td valign="top">Payable en France</td>
+<td></td>
+</tr>
+</table>
+</td>
+<td valign=top>€ {{amount_Num}}<br></td>
+</tr>
+<tr>
+<td></td>
+<td valign="top">{{sign_Place}}<br>{{sign_Date_YMD}}<br><br>{{party1.signRep.name_Full}}</td>
+</tr>
+<tr>
+<td>{{check_ID_Num}} | {{party1_Acct_ID_Num.acctnum}} | {{bank1.gov_ID_Num}}</td>
+<td></td>
+</tr>
+</table>

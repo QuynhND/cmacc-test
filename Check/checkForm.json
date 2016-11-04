@@ -1,5 +1,5 @@
 {
-    "B1": {
+    "bank1": {
         "name_Full": {
             "$$str$$": "name_Full"
         },
@@ -185,7 +185,7 @@
         },
         "$$file$$": "file:///Users/Marc/SkyDrive/Documents/CommonAccord/cmacc-test/FR/_entity.cmacc"
     },
-    "B1_adr12": {
+    "bank1_adr12": {
         "adr": {
             "streetnum": {
                 "$$str$$": "streetnum"
@@ -281,7 +281,7 @@
             }
         }
     },
-    "P1": {
+    "party1": {
         "name_Full": {
             "$$str$$": "name_Full"
         },
@@ -467,7 +467,7 @@
         },
         "$$file$$": "file:///Users/Marc/SkyDrive/Documents/CommonAccord/cmacc-test/FR/_entity.cmacc"
     },
-    "P1_adr12": {
+    "party1_adr12": {
         "adr": {
             "streetnum": {
                 "$$str$$": "streetnum"
@@ -608,7 +608,7 @@
             "$$file$$": {}
         }
     },
-    "P2": {
+    "party2": {
         "name_Full": {
             "$$str$$": "name_Full"
         },
@@ -794,7 +794,7 @@
         },
         "$$file$$": "file:///Users/Marc/SkyDrive/Documents/CommonAccord/cmacc-test/FR/_entity.cmacc"
     },
-    "P1_Acct_ID_Num": {
+    "party1_Acct_ID_Num": {
         "acctnum": {
             "$$str$$": "1234567890"
         },
@@ -827,6 +827,6 @@
     "sign_Date_YMD": {
         "$$str$$": "sign_Date_YMD"
     },
-    "$$text$$": "<table>\n<tr><td><h1>{{B1.name_Full}}</h1><br>{{B1_adr12}}</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td valign=\"top\">{{P1.name_Full}} <br>{{P1_adr12}}</td>\n<td valign=\"top\">Compte <br>{{P1_Acct_ID_Num.acctnum}}</td>\n</tr>\n<tr>\n<td>Payez contre ce chèque non endossable {{amount_Text}}<br> à {{P2.name_Full}}<br>\n<table>\n<tr>\n<td valign=\"top\">Payable en France</td>\n<td></td>\n</tr>\n</table>\n</td>\n<td valign=top>€ {{amount_Num}}<br></td>\n</tr>\n<tr>\n<td></td>\n<td valign=\"top\">{{sign_Place}}<br>{{sign_Date_YMD}}<br><br></td>\n</tr>\n<tr>\n<td>{{check_ID_Num}} | {{P1_Acct_ID_Num.acctnum}} | {{B1.gov_ID_Num}}</td>\n<td></td>\n</tr>\n</table>\n\n\n\n\n",
-    "$$file$$": "file:///Users/Marc/SkyDrive/Documents/CommonAccord/cmacc-test/Check/CheckFormat.cmacc"
+    "$$text$$": "<table>\n<tr><td><h1>{{bank1.name_Full}}</h1><br>{{bank1_adr12}}</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td valign=\"top\">{{party1.name_Full}} <br>{{party1_adr12}}</td>\n<td valign=\"top\">Compte <br>{{party1_Acct_ID_Num.acctnum}}</td>\n</tr>\n<tr>\n<td>Payez contre ce chèque non endossable {{amount_Text}}<br> à {{party2.name_Full}}<br>\n<table>\n<tr>\n<td valign=\"top\">Payable en France</td>\n<td></td>\n</tr>\n</table>\n</td>\n<td valign=top>€ {{amount_Num}}<br></td>\n</tr>\n<tr>\n<td></td>\n<td valign=\"top\">{{sign_Place}}<br>{{sign_Date_YMD}}<br><br>{{party1.signRep.name_Full}}</td>\n</tr>\n<tr>\n<td>{{check_ID_Num}} | {{party1_Acct_ID_Num.acctnum}} | {{bank1.gov_ID_Num}}</td>\n<td></td>\n</tr>\n</table>\n",
+    "$$file$$": "file:///Users/Marc/SkyDrive/Documents/CommonAccord/cmacc-test/Check/checkForm.cmacc"
 }

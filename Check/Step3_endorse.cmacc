@@ -1,19 +1,9 @@
-$ signed = [./Step2_sign.cmacc] => {
-}
+$ check_Signed = [./step2_sign.cmacc];
 
-$ endorse = [./endorse.cmacc] => {
-	"person" : signed.check.payto
-}
+$ action_Endorse = [./endorse_Yes.cmacc];
 
-$ action = [./endorse_Yes.cmacc] => 
 
-{{signed}}
+{{check_Signed}}
 ---
-{{endorse}}
-
-
-
-
-
-
-
+Endorsed by: 
+{{check_Signed.check.payto.name_Full}}

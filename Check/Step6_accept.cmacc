@@ -1,12 +1,12 @@
-$ time_YMDH = "2016-09-22 16:05"
+$ time_Accept_YMDH = "2016-09-22 16:05";
 
-$ accept = [./Step5_present.cmacc] => {
-}
+$ check_Presented = [./step5_present.cmacc];
 
-$ action = [./accept_Yes.cmacc] => 
+$ action_Accept = [./accept_Yes.cmacc];
 
-{{accept}}
+
+{{check_Presented}}
 ---
-Accepted by {{accept.presented.deposited.endorsed.signed.check.B1.name_Full}} at {{time_YMDH}}
+Accepted by {{check_Present.check_Deposited.check_Endorsed.check_Signed.check.bank1.name_Full}} at {{time_Accept_YMDH}}
 
 

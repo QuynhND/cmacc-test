@@ -1,96 +1,52 @@
-$ B1 = [../ID/BNP.cmacc] => {
-}
+$ bank1 = [../ID/BNP.cmacc];
 
-$ B1_adr12 = [../Geo/FR/_adr_12.cmacc] => {
-	"adr" : B1.adr
-}
+$ bank1_adr12 = [../Geo/FR/_adr_12.cmacc] => {
+	"adr" : bank1.adr
+};
 
-$ payfrom = [../ID/marie_matignon.cmacc] => {
-}
+$ marie_matignon = [../ID/marie_matignon.cmacc];
 
-$ P1 = [../FR/_entity_individual.cmacc] => {
-	"person" : payfrom
+$ payfrom = [../FR/_entity_individual.cmacc] => {
+	"person" : marie_matignon,
+	"adr" : marie_matignon.adr,
+	"sign_Rep" : marie_matignon
+};
+
+$ payfrom_adr = [../Geo/FR/_adr_12.cmacc] => {
 	"adr" : payfrom.adr
-	"sign_Rep" : payfrom
-}
+};
 
-$ P1_adr = [../Geo/FR/_adr_12.cmacc] => {
-	"adr" : P1.adr
-}
+$ marc_dangeard = [../ID/marc_dangeard.cmacc];
 
-$ payto = [../ID/marc_dangeard.cmacc] => {
-}
+$ payto = [../FR/_entity_individual.cmacc] => {
+	"person" : marc_dangeard,
+	"sign_Rep" : marc_dangeard
+};
 
-$ P2 = [../FR/_entity_individual.cmacc] => {
-	"person" : payto
-	"sign_Rep" : payto
-}
+$ payfrom_Acct_ID_Num = [../Acct/BNP/1234/1234567890/acct.cmacc];
 
-$ P1_Acct_ID_Num = [../Acct/BNP/1234/1234567890/Acct.cmacc] => {
-}
+$ check_ID_Num = "101";
 
-$ Check_ID_Num = "101"
+$ amount_Text = "mille deux cent euros";
 
-$ amount_Text = "mille deux cent euros"
+$ amount_Num = "1200,00";
 
-$ Amount_Num = "1200,00"
+$ sign_Place = "sign_Place";
 
-$ sign_Place = "sign_Place"
+$ sign_Date_YMD = "sign_Date_YMD";
 
-$ sign_Date_YMD = "sign_Date_YMD"
+$ action_Write = [./write_Yes.cmacc];
 
-$ action = [./write_Yes.cmacc] => {
-}
+$ check_Write = [./checkForm.cmacc] => {
+	"bank1" : bank1,
+	"party1" : payfrom,
+	"party2" : payto,
+	"party1_Acct_ID_Num" : payfrom_Acct_ID_Num,
+	"check_ID_Num" : check_ID_Num,
+	"amount_Text" : amount_Text,
+	"amount_Num" : amount_Num,
+	"sign_Place" : sign_Place,
+	"sign_Date_YMD" : sign_Date_YMD
+};
 
-<table>
-<tr><td><h1>{{B1.name_Full}}</h1><br>{{B1_adr12}}</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td valign="top">{{P1.name_Full}}, {{P1_adr}}</td>
-<td valign="top">Compte <br>{{P1_Acct_ID_Num.acctnum}}</td>
-</tr>
-<tr>
-<td>Payez contre ce chèque non endossable {{amount_Text}}<br> à {{P2.name_Full}}<br>
-<table>
-<tr>
-<td valign="top">Payable en France</td>
-<td></td>
-</tr>
-</table>
-</td>
-<td valign=top>€ {{Amount_Num}}<br></td>
-</tr>
-<tr>
-<td></td>
-<td valign="top">{{sign_Place}}<br>{{sign_Date_YMD}}<br><br>{{P1.signRep.name_Full}}</td>
-</tr>
-<tr>
-<td>{{Check_ID_Num}} | {{P1_Acct_ID_Num.acctnum}} | {{B1.gov_ID_Num}}</td>
-<td></td>
-</tr>
-</table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{{check_Write}}

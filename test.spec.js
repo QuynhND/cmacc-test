@@ -9,13 +9,6 @@ var cmacc = require('cmacc-compiler');
 
 var dir = __dirname;
 
-function run(file) {
-    var ast = cmacc.compile('file://' + path.join(dir, file));
-    var md = cmacc.resolve(ast);
-    var html = cmacc.marked(md);
-    return html;
-}
-
 describe('test', function () {
 
     var files = recursiveReadSync('.');
@@ -26,8 +19,15 @@ describe('test', function () {
 
             it('should ' + file, function () {
                 var spec = fs.readFileSync(file.replace(/.cmacc$/, '.html'), 'utf8');
-                var result = run(file);
-                //fs.writeFileSync(file.replace(/.cmacc$/, '.html'), result, 'utf8');
+
+                var ast = cmacc.compile('file://' + path.join(dir, file));
+                fs.writeFileSync(file.replace(/.cmacc$/, '.json'), JSON.stringify(ast, null, 4), 'utf8');
+
+                var md = cmacc.resolve(ast);
+                var html = cmacc.marked(md);
+
+                var result = html;
+                fs.writeFileSync(file.replace(/.cmacc$/, '.html'), result, 'utf8');
                 //console.log(result)
                 assert.equal(result, spec);
             });

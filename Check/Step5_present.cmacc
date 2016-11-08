@@ -7,4 +7,4 @@ $ action_Present = [./present_Yes.cmacc];
 
 {{check_Deposited}}
 ---
-Presented by {{check_Deposited.bank2.name_Full}} to {{check_Deposited.check_Endorsed.check_Signed.check.bank1.name_Full}} at {{time_Present_YMDH}}
+Presented by {{check_Deposited.bank2.name_Full}} to {{check_Deposited.check_Endorsed.check_Signed.check_Sign.bank1.name_Full}} at {{time_Present_YMDH}}

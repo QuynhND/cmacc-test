@@ -6,4 +6,4 @@ $ action_Endorse = [./endorse_Yes.cmacc];
 {{check_Signed}}
 ---
 Endorsed by: 
-{{check_Signed.check.payto.name_Full}}
+{{check_Signed.check_Sign.payto.name_Full}}

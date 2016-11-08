@@ -1,19 +1,10 @@
-Yes/No.cl={Yes.cl}
+$ SCDL_Ti = "Presentment";
 
-Yes.cl=Presented by: {B2.Name.Full} to {B1.Name.Full} at {Time.YMDH}.
-  
-=[bqc/fr/system/SCDL/Present/0.md]
+$ SCDL_1_sec = "B2 Synchronizes Presentment Record with B1";
 
+$ SCDL_2_sec = "B1 Acknowledges to B2";
 
+$ SCDL_3_sec = "B2 Notifies P2";
 
-SCDL.Ti=Presentment
+$ SCDL_4_sec = "B2 Sets timer on return of Acceptance from B1";
 
-SCDL.1.sec=B2 Synchronizes Presentment Record with B1
-
-SCDL.2.sec=B1 Acknowledges to B2
-
-SCDL.3.sec=B2 Notifies P2
-
-SCDL.4.sec=B2 Sets timer on return of Acceptance from B1
-
-SCDL.=[Z/ol/s4]

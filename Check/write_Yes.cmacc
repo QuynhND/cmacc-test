@@ -1,20 +1,20 @@
-$ SCDL_Ti = "On filling the Payment Order  (Check)"
+$ SCDL_Ti = "On filling the Payment Order  (Check)";
 
-$ SCDL_1_Ti=Validate that the Payment Amount is Available in the Account
+$ SCDL_1_Ti = "Validate that the Payment Amount is Available in the Account";
 
-$ SCDL_1_sec=QmX4isQE7GWwyKtQfC2X97fBbbGyBqNdvsscKEEo7oMNNN
+$ SCDL_1_sec = "QmX4isQE7GWwyKtQfC2X97fBbbGyBqNdvsscKEEo7oMNNN";
 
-$ SCDL_2_Ti=Validate that P2 Exists and Not Under Restriction
+$ SCDL_2_Ti = "Validate that P2 Exists and Not Under Restriction";
 
-$ SCDL_2_sec=Qmdb5bCtN8XrvQqiUxUd7siBx62MxH6WxvsnsHzVvg7VrN
+$ SCDL_2_sec = "Qmdb5bCtN8XrvQqiUxUd7siBx62MxH6WxvsnsHzVvg7VrN";
 
-$ SCDL_3_Ti=No Duplicate Check in the Pipeline
+$ SCDL_3_Ti = "No Duplicate Check in the Pipeline";
 
-$ SCDL_3_sec=QmTaMUaC2ijnGnU1Z1sxdmpR3dFJktEQd1cYTaTXni61Fm
+$ SCDL_3_sec = "QmTaMUaC2ijnGnU1Z1sxdmpR3dFJktEQd1cYTaTXni61Fm";
 
-$ SCDL_4_Ti=Stage for Signature - Notify Signer 
+$ SCDL_4_Ti = "Stage for Signature - Notify Signer";
 
-$ SCDL_4_sec=QmeQDpMQfwEzsJ561ZtAyFekDUPD4Mnj8rKqUrW48iae3A
+$ SCDL_4_sec = "QmeQDpMQfwEzsJ561ZtAyFekDUPD4Mnj8rKqUrW48iae3A";
   
 
 

@@ -7,6 +7,6 @@ $ action_Accept = [./accept_Yes.cmacc];
 
 {{check_Presented}}
 ---
-Accepted by {{check_Present.check_Deposited.check_Endorsed.check_Signed.check.bank1.name_Full}} at {{time_Accept_YMDH}}
+Accepted by {{check_Presented.check_Deposited.check_Endorsed.check_Signed.check.bank1.name_Full}} at {{time_Accept_YMDH}}
 
 

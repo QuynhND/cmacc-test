@@ -1,18 +1,18 @@
 $ bank1 = [../FR/_entity.cmacc];
 
-$ bank1_adr12 = [../Geo/FR/_adr_12.cmacc] => {
+$ bank1_Adr12 = [../Geo/FR/_adr_12.cmacc] => {
 	"adr" : bank1.adr
 };
 
 $ party1 = [../FR/_entity.cmacc];
 
-$ party1_adr12 = [../Geo/FR/_adr_12.cmacc] => {
+$ party1_Adr12 = [../Geo/FR/_adr_12.cmacc] => {
 	"entity" : party1.adr
 };
 
-$ party2 = [../FR/_entity.cmacc];
-
 $ party1_Acct_ID_Num = [../Acct/bank/acctID/acctnum/_acct.cmacc];
+
+$ party2 = [../FR/_entity.cmacc];
 
 $ check_ID_Num = "Check_ID_Number";
 
@@ -26,13 +26,14 @@ $ sign_Date_YMD = "sign_Date_YMD";
 
 
 
+
 <table>
-<tr><td><h1>{{bank1.name_Full}}</h1><br>{{bank1_adr12}}</td>
+<tr><td><h1>{{bank1.name_Full}}</h1><br>{{bank1_Adr12}}<br></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td valign="top">{{party1.name_Full}} <br>{{party1_adr12}}</td>
+<td valign="top">{{party1.name_Full}} <br>{{party1_Adr12}}</td>
 <td valign="top">Compte <br>{{party1_Acct_ID_Num.acctnum}}</td>
 </tr>
 <tr>

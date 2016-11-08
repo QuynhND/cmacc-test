@@ -1,0 +1,12 @@
+$ sign_Name = "sign_Name";
+
+$ sign_Place =  "sign_Place";
+
+$ sign_Date = "sign_Date";
+
+
+{{sign_Place}}
+{{sign_Date}}
+
+
+{{sign_Name}}  

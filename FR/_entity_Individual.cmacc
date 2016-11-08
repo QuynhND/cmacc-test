@@ -14,7 +14,7 @@ $ adr_Type = "adr_Type";
 
 $ sign_Rep = [../FR/_individual.cmacc];
 
-$ sign_Title = "";
+$ sign_Title = " ";
 
 $ pron = [../Form/_sing.cmacc];
 

@@ -10290,13 +10290,13 @@
                 }
             },
             "Product_Description": {
-                "$$str$$": "Product_Description"
+                "$$str$$": "eighteen cases of grape preserves"
             },
             "Price_USD": {
-                "$$str$$": "Price_USD"
+                "$$str$$": "$650.00"
             },
             "Pickup_Time_Max": {
-                "$$str$$": "Pickup_Time_Max"
+                "$$str$$": "2014-08-15"
             },
             "DeliveryClaim_Delay": {
                 "$$str$$": "24 hours"
@@ -10308,10 +10308,10 @@
                 "$$str$$": "$1.50"
             },
             "Escrow_Sign_YMD": {
-                "$$str$$": "Escrow_Sign_YMD"
+                "$$str$$": "2014-08-13"
             },
             "Escrow_Effective_YMD": {
-                "$$str$$": "Escrow_Effective_YMD"
+                "$$str$$": "2014-08-13"
             },
             "Arb_Fee_USD": {
                 "$$str$$": "$50.00"
@@ -12512,13 +12512,13 @@
                     "$$file$$": "file:///Users/willemveelenturf/projects/commonaccord/cmacc-test/ID/fabulous_express_inc.cmacc"
                 },
                 "Product_Description": {
-                    "$$str$$": "Product_Description"
+                    "$$str$$": "eighteen cases of grape preserves"
                 },
                 "Price_USD": {
-                    "$$str$$": "Price_USD"
+                    "$$str$$": "$650.00"
                 },
                 "Pickup_Time_Max": {
-                    "$$str$$": "Pickup_Time_Max"
+                    "$$str$$": "2014-08-15"
                 },
                 "DeliveryClaim_Delay": {
                     "$$str$$": "24 hours"
@@ -12530,10 +12530,10 @@
                     "$$str$$": "$1.50"
                 },
                 "Escrow_Sign_YMD": {
-                    "$$str$$": "Escrow_Sign_YMD"
+                    "$$str$$": "2014-08-13"
                 },
                 "Escrow_Effective_YMD": {
-                    "$$str$$": "Escrow_Effective_YMD"
+                    "$$str$$": "2014-08-13"
                 },
                 "Arb_Fee_USD": {
                     "$$str$$": "$50.00"

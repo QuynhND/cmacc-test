@@ -20,11 +20,9 @@ $ amount_Text = "amount_Text";
 
 $ amount_Num = "Amount_Number";
 
-$ sign_Place = "sign_Place";
+$ sign_Place = "Place";
 
-$ sign_Date_YMD = "sign_Date_YMD";
-
-
+$ sign_Date_YMD = "Date_YMD";
 
 
 <table>

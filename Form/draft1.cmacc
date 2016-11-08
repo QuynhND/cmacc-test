@@ -14,17 +14,8 @@ $ who = [../Form/who.cmacc] => {
 };
 
 $ closing = [../Form/closing.cmacc] => {
-<<<<<<< Updated upstream
     "party1" : party1,
     "party2": party2
-=======
-	"signParty1": {
-	"person" : party1
-	},
-	"signParty2": {
-	"person" : party2
-	}
->>>>>>> Stashed changes
 };
 
 {{intro}}

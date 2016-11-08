@@ -2,20 +2,12 @@ $ sign_Date_YMD = "2016-09-22";
 
 $ sign_Place = "Paris";
 
-$ check = [../Check/step1_write.cmacc] => {
-	"sign_Place" : {
-		"sign_Place" : {
-			"sign_Place" : sign_Place
-			}
-		},
-	"sign_Date_YMD" : {
-		"sign_Date_YMD" : {
-			"sign_Date_YMD" : sign_Date_YMD
-		}
-	}
+$ check_Sign = [../Check/step1_write.cmacc] => {
+	"sign_Place" : sign_Place,
+	"sign_Date_YMD" : sign_Date_YMD
 };
 
 $ action_Sign = [./sign_Yes.cmacc];
 
 
-{{check}}
+{{check_Sign}}

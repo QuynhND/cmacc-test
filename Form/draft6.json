@@ -268,7 +268,7 @@
             "$$file$$": "file:///Users/Marc/SkyDrive/Documents/CommonAccord/cmacc-test/ID/_person.cmacc",
             "$$mrg$$": {}
         },
-        "$$text$$": "This agreement is between {{party1.name_Full}} and {{party2.name_Full}}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+        "$$text$$": "This agreement is between {{party1.name_Full}} and {{party2.name_Full}}",
         "$$file$$": "file:///Users/Marc/SkyDrive/Documents/CommonAccord/cmacc-test/Form/who.cmacc",
         "$$mrg$$": {
             "party1": {

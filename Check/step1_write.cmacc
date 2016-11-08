@@ -31,9 +31,13 @@ $ amount_Text = "mille deux cent euros";
 
 $ amount_Num = "1200,00";
 
+$ sign_Date_YMD = "sign_Date_YMD";
+
+$ sign_Place = "sign_Place";
+
 $ action_Write = [./write_Yes.cmacc];
 
-$ check_Write = [./checkForm.cmacc] => {
+$ check_Write = [./check_Form.cmacc] => {
 	"bank1" : bank1,
 	"party1" : payfrom,
 	"party1_Adr12" : payfrom_Adr,
@@ -41,7 +45,9 @@ $ check_Write = [./checkForm.cmacc] => {
 	"party2" : payto,
 	"check_ID_Num" : check_ID_Num,
 	"amount_Text" : amount_Text,
-	"amount_Num" : amount_Num
+	"amount_Num" : amount_Num,
+	"sign_Place" : sign_Place,
+	"sign_Date_YMD" : sign_Date_YMD
 };
 
 

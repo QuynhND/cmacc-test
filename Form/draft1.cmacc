@@ -14,12 +14,8 @@ $ who = [../Form/who.cmacc] => {
 };
 
 $ closing = [../Form/closing.cmacc] => {
-  "signParty1":{
-    "person" : party1
-  },
-  "signParty2":{
-	 "person": party2
-  }
+    "party1" : party1,
+    "party2": party2
 };
 
 {{intro}}

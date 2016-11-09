@@ -1,0 +1,24 @@
+$ party1 = [../US/_entity.cmacc];
+
+$ party1_NEA = [../US/_entity_NEA.cmacc] => {
+    "entity" : party1
+};
+
+$ party1_Handle = "party1_Handle";
+
+$ party2 = [../US/_entity.cmacc];
+
+$ party2_NEA = [../US/_entity_NEA.cmacc] => {
+    "entity" : party2
+};
+
+$ party2_Handle = "party2_Handle";
+
+
+{{party1_NEA}} represented by {{party1.sign_Rep.name_Full}}, its {{party1.sign_Title}}, 
+
+herein referred to as "{{party1_Handle}}"
+
+{{party2_NEA}} represented by {{party2.sign_Rep.name_Full}}, its {{party2.sign_Title}}, 
+
+herein referred to as "{{party2_Handle}}"

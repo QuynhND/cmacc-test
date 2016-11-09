@@ -1,4 +1,4 @@
-$ parties_List = "parties_List";
+$ parties_List = [./_agt_Parties_List.cmacc];
 
 By and Betweeen:
 

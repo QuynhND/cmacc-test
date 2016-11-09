@@ -57,9 +57,9 @@ sudo npm link
 
 Then you can go to the cmacc-test directory and run cmacc there:
 
-...
+```
 cmacc HelloWorld.cmacc
-...
+```
 
 This creates a .html file that you can view in your browser.
 

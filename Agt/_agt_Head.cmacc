@@ -1,0 +1,8 @@
+$ doc_Title = "doc_Title";
+
+$ effective_Date_YMD = "effective_Date_YMD";
+
+
+{{doc_Title}}
+
+Effective Date: {{effective_Date_YMD}} (the "Effective Date")

@@ -1,0 +1,35 @@
+$ party1 = [../ID/_entity.cmacc];
+
+$ party2 = [../ID/_entity.cmacc];
+
+$ sign_Party1_Place = "sign_Party1_Place";
+
+$ sign_Party1_Date = "sign_Party1_Date";
+
+$ signParty1 = [../Form/_sign.cmacc] => {
+	"role" : party1.name_Full,
+	"person" : party1.sign_Rep,
+	"sign_Place" : sign_Party1_Place,
+	"sign_Date" : sign_Party1_Date
+};
+
+$ sign_Party2_Place = "sign_Party2_Place";
+
+$ sign_Party2_Date = "sign_Party2_Date";
+
+$ signParty2 = [../Form/_sign.cmacc] => {
+	"role" : party2.name_Full,
+	"person" : party2.sign_Rep,
+	"sign_Place" : sign_Party2_Place,
+	"sign_Date" : sign_Party2_Date
+};
+
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective Date.
+
+<table width="100%">
+<tr>
+<td>{{signParty1}}</td>
+<td>{{signParty2}}</td>
+</tr>
+</table>

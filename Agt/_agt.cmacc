@@ -1,0 +1,36 @@
+$ head_Sec = [./_agt_Head.cmacc];
+
+$ among_Sec = [./_agt_Parties.cmacc];
+
+$ friends_Sec = [./_agt_Friends.cmacc];
+
+$ this_Sec = [./_agt_This.cmacc];
+
+$ why_Sec = [./_agt_Recitals.cmacc];
+
+$ that_Sec = [./_agt_That.cmacc];
+
+$ text_Sec = [./_agt_Body.cmacc];
+
+$ by_Sec = [../Form/_sign_Block_2.cmacc];
+
+$ annex_Sec = "annex_Sec";
+
+
+{{head_Sec}}
+
+{{among_Sec}}
+
+{{friends_Sec}}
+
+{{this_Sec}}
+
+{{why_Sec}}
+
+{{that_Sec}}
+
+{{text_Sec}}
+
+{{by_Sec}}
+
+{{annex_Sec}}

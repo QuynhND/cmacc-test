@@ -1,0 +1,5 @@
+$ agt_Head = [./_agt_Head.cmacc];
+
+$ effective_Date = "effective_Date";
+
+This {{agt_Head.doc_Title}} (the "Agreement") is made as of the {{effective_Date}} by and between the parties.

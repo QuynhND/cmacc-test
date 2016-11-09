@@ -12,7 +12,7 @@ $ adr = [../Geo/country/state/county/city/street/streetnum/_geo.cmacc];
 
 $ adr_Type = "adr_Type";
 
-$ pron = [../Form/_sing.cmacc];
+$ pron = [../US/_sing.cmacc];
 
 $ gender = [../ID/gender/_gender.cmacc];
 

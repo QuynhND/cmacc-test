@@ -73,7 +73,8 @@ Or you can edit the files in Visual Studio Code and do Ctrl+Shft+h to preview th
 
 # Best practices
 
-1. Addresses are in Geo. A reference to an address is a reference to a geo.cmacc file located in a given Country > State > County > City > Street > Number directory.
+## Addresses
+Addresses are in Geo. A reference to an address is a reference to a geo.cmacc file located in a given Country > State > County > City > Street > Number directory.
 The way to display an address is by using the _adr_12.cmacc file.
 So 55 Broadway St, Cmabridge, MA 02142 is a geo.cmacc file created in USA > MA > Middlesex > Broadway St > 55 directory.
 The file looks like this: 

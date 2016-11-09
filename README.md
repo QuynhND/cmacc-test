@@ -157,6 +157,6 @@ Example of these generic forms are _entity.cmacc, _individual.cmacc, _entity_NEA
 Generic forms related to gender are kept in the ID folder for now.
 he.cmacc, she.cmacc and maybe it.cmacc at some point (IoT)
 
-Generic forms related to pronouns are kept in the Form folder. This allows to build documents that can then be customize to reflect the sex of the person, or whether they are for a group (we) or for an individual (I). So we have _pron.cmacc, _plur.cmacc, _sing.cmacc, and generic forms like signature blocks, that can be re-used from one document to the other: _sign_Simple.cmacc, _sign_4.cmacc etc.
+Generic forms related to pronouns are kept in the Country folder. This allows to build documents that can then be customize to reflect the sex of the person, or whether they are for a group (we) or for an individual (I). So we have _pron.cmacc, _plur.cmacc, _sing.cmacc, and generic forms like signature blocks, that can be re-used from one document to the other: _sign_Block_2.cmacc, _sign.cmacc etc.
 
 The list of generic forms available will grow as we identify re-usable pieces in the production of documents. Feel free to submit you own form as you see fit.

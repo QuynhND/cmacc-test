@@ -17,14 +17,18 @@ How it works:
 
 * To set parameters:
 
+```
 $ key = value;
+```
 
 * To call a file and set key within the file called
 
+```
 $ file = [link to file] => {
  "key1" : value1,
  "key2" : value2
 };
+```
 
 Note that if the key/value is a link to a file, keys within this linked file are called using "."
 In the example above, the value for the key would be called by refering to file.key.
@@ -39,6 +43,7 @@ Using the example above, this would be:
 
 For example see the HelloWorld.cmacc file in this repo:
 
+```
 $ person = [../ID/_person.cmacc];
 
 $ name_Full = [../ID/_person_full.cmacc] => {
@@ -46,6 +51,7 @@ $ name_Full = [../ID/_person_full.cmacc] => {
 };
 
 {{person.gender.His_Her}} name is {{name_Full}} and {{person.gender.he_she}} lives in {{person.city}}
+```
 
 # Run test
 To install cmacc-compiler

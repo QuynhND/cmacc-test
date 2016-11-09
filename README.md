@@ -1,4 +1,4 @@
-# cmacctest
+# cmacc-test
 
 Sample files for Cmacc
 

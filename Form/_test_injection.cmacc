@@ -1,0 +1,5 @@
+$ name = "Marc";
+
+$ name_Formal = "Mr {{name}}";
+
+{{name_Formal}}

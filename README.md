@@ -4,6 +4,18 @@ Sample files for Cmacc
 
 Files are working with the cmacc-compiler that can be downloaded from https://github.com/wilmveel/cmacc-compiler.
 
+To install the cmacc-compiler (requires node.js installed)
+
+```
+npm install
+```
+
+then
+
+```
+sudo npm link
+```
+
 Syntax is similar to the syntax used for the electron editor, it is JSON compatible. Files can be edited using a regular code editor. There is a Visual Studio Code plugin that will allow you to preview the files by pressing Ctrl+Shft+h, that is available here: https://marketplace.visualstudio.com/items?itemName=wilmveel.cmacc-vscode.
 
 * Pros: editor can be installed easily (dmg for Mac), and the text can be easily be previewed, so you can easily spot issues. And you do not have to enter HTML, the text can have carriage returns, indentation etc natively

@@ -1,0 +1,19 @@
+$ This_Agreement ="<b>This Agreement</b>";
+
+$ this_Agreement ="<b>this Agreement</b>";
+
+$ q =",";
+
+$ P1_Handle="<b>Party 1</b>";
+
+$ P2_Handle="<b>Party 2</b>";
+
+$ party="<b>party</b>";
+
+$ parties="<b>parties</b>";
+
+$ Project_Assignment ="<b>Project Assignment</b>";
+
+$ Client = "<b>Client</b>";
+
+$ Consultant = "<b>Consultant</b>";

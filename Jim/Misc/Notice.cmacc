@@ -1,0 +1,31 @@
+$ Ti = "Notices";
+
+$ O_sec = "Any notice required or permitted by {{_.this_Agreement}} will be in writing and will be delivered as follows with notice deemed given as indicated:";
+
+$ Personal_cl = "by personal delivery - when delivered personally";
+
+$ Overnight_cl = "by overnight courier - upon written verification of receipt";
+
+$ Fax_cl = "by telecopy or facsimile transmission - upon acknowledgment of receipt of electronic transmission";
+
+$ Mail_cl = "by certified or registered mail, return receipt requested - upon verification of receipt";
+
+$ OO_sec = "Notice will be sent to the addresses set forth at the bottom of {{_.this_Agreement}} or such other address as either {{_.party}} may specify in writing.";
+
+$ Note = "list that allows us to easily concatenate and knock out clauses. ";
+
+$ Personal_li = "<li>{{Personal_cl}}";
+
+$ Overnight_li = "<li>{{Overnight_cl}}";
+
+$ Fax_li = "<li>{{Fax_cl}}";
+
+$ Mail_li = "<li>{{Mail_cl}}";
+
+$ sec = "{{O_sec}}<ol>{{Personal_li}};{{Overnight_li}};{{Fax_li}}; or {{Mail_li}}.</ol>{{OO_sec}}";
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+$ _ = [../Defined_Terms.cmacc];
+
+{{Sec}}

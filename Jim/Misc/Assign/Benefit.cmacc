@@ -1,0 +1,15 @@
+$ Ti = "Benefit";
+
+$ Mutual_sec = "Subject to the foregoing, {{_.this_Agreement}} will be for the benefit of each {{_.party}}'s successors and assigns, and will be binding on each {{_.party}}'s assignees.";
+
+$ P1_sec = "Subject to the foregoing, {{_.this_Agreement}} will be for the benefit of {{_.P1_Handle}}'s successors and assigns, and will be binding on {{_.P2_Handle}}'s assignees.";
+
+$ P2_sec = "Subject to the foregoing, {{_.this_Agreement}} will be for the benefit of {{_.P2_Handle}}'s successors and assigns, and will be binding on {{_.P1_Handle}}'s assignees.";
+
+$ Sec = "<b>{{Ti}}</b></br>{{sec}}";
+
+$ sec ="<ol><li><b>Mutual_sec</b>:<br>{{Mutual_sec}}<li><b>P1_sec</b>:<br>{{P1_sec}}<li><b>P2_sec</b>:<br>{{P2_sec}}</ol>";
+
+$ _ = [../../Defined_Terms.cmacc]
+
+{{Sec}}

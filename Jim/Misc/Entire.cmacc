@@ -1,0 +1,18 @@
+$ Ti = "Entire Agreement";
+
+$ Simple_sec = "{{_.This_Agreement}} is the final, complete{{_.q}} and exclusive agreement of the {{_.parties}} with respect to the subject matters hereof and supersedes and merges all prior discussions between the {{_.parties}} with respect to such matters.";
+
+$ AdditionalAgreements_sec = "{{Simple_sec}} The {{_.parties}} anticipate entering into additional agreements. {{_.This_Agreement}} will remain in force unless and until expressly superceded by another agreement of at least equal formality signed by all of the {{_.parties}}.";
+
+$ Consult_sec = "{{Simple_sec}} The terms of {{_.this_Agreement}} will govern all services undertaken by {{_.Consultant}} for {{_.Client}}; provided, however, that in the event of any conflict between the terms of {{_.this_Agreement}} and any {{_.Project_Assignment}}, the terms of the applicable {{_.Project_Assignment}} will control. ";
+
+$ sec_List="<ol><li>{{Simple_sec}}<li>{{AdditionalAgreements_sec}}<li>{{Consult_sec}}</ol>";
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+$ sec ="{{sec_List}}";
+
+$ _ = [../Defined_Terms.cmacc];
+
+
+{{Sec}}

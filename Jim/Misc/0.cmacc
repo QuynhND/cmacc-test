@@ -1,0 +1,21 @@
+$ Ti ="Miscellaneous";
+
+$ Assign = [Assign/Sec.cmacc];
+
+$ Amend = [Amend.cmacc];
+
+$ Entire = [Entire.cmacc];
+
+$ Notice = [Notice.cmacc];
+
+$ Sever = [Sever.cmacc];
+
+$ Waive = [Waive.cmacc];
+
+$ sec ="<ol><li>{{Amend.Sec}}<li>{{Assign.Sec}}<li>{{Entire.Sec}}<li>{{Notice.Sec}}<li>{{Sever.Sec}}<li>{{Waive.Sec}}</ol>";
+
+$ Sec="<b>{{Ti}}</b><br>{{sec}}";
+
+
+{{Sec}}
+

@@ -1,0 +1,11 @@
+$ Ti = "Waiver";
+
+$ sec = "Any waiver or failure to enforce any provision of {{_.this_Agreement}} {{ByParty_cl}} on one occasion will not be deemed a waiver of any other provision or of such provision on any other occasion.";
+
+$ ByParty_cl = "by a {{_.party}}";
+
+$ Sec = "<b>{{Ti}}</br>{{sec}}";
+
+$ _ = [../Defined_Terms.cmacc]
+
+{{Sec}}

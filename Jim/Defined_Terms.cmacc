@@ -12,6 +12,14 @@ $ party="<b>party</b>";
 
 $ parties="<b>parties</b>";
 
+$ Disclosing_Party ="<b>Disclosing Party</b>";
+
+$ Receiving_Party ="<b>Receiving Party</b>";
+
+$ Confidential_Information = "Confidential Information";
+
+$ Confidential_Information_of_Disclosing_Party = "Confidential Information of Disclosing Party";
+
 $ Project_Assignment ="<b>Project Assignment</b>";
 
 $ Client = "<b>Client</b>";

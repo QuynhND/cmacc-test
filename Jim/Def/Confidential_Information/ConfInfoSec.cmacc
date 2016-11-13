@@ -1,0 +1,41 @@
+$ Ti = "{{_.Confidential_Information}}";
+
+
+$ O_Alt1_sec = "{{O_Disclosed_Cl}} {{Mutual_0_By_cl}} {{O_Including_cl}}:";
+
+$ O_Alt2_sec = "{{0_Disclosed_Cl}} {{P1_to_P2_0_By_cl}} {{0_Including_cl}}:";
+
+$ O_Alt3_sec = "{{0_Disclosed_Cl}} {{P2_to_P1_0_By_cl}} {{0_Including_cl}}:";
+
+$ O_Disclosed_Cl = "\"{{_.Confidential_Information}}\" means any and all technical and non-technical information disclosed ";
+
+$ Mutual_0_By_cl = "by a {{_.party}} (\"{{_.Disclosing_Party}}\") to another {{_.party}} (\"{{_.Receiving_Party}}\")";
+
+$ P1_to_P2_0_By_cl = "by {{_.P1_Handle}} (\"{{_.Disclosing_Party}}\") to {{_.P2_Handle}} (\"{{_.Receiving_Party}}\")";
+
+$ P2_to_P1_0_By_cl = "by {{_.P2_Handle}} (\"{{_.Disclosing_Party}}\") to {{_.P1_Handle}} (\"{{_.Receiving_Party}}\")";
+
+$ O_Including_cl = "including without limitation information regarding";
+
+$ A_sec = "patent and patent applications;";
+
+$ B_sec = "trade secrets;";
+
+$ C_sec = "{{Example.sec}}";
+
+$ D_sec = "information {{_.Disclosing_Party}} provides regarding third parties; and";
+
+$ E_sec = "all other information that {{_.Receiving_Party}} knew, or reasonably should have known, was {{_.Confidential_Information_of_Disclosing_Party}}.";
+
+$ subsecs = "<ol><li>{{A_sec}}<li>{{B_sec}}<li>{{C_sec}}<li>{{D_sec}}<li>{{E_sec}}</ol>";
+
+$ sec = "{{O_Alt1_sec}}{{subsecs}}";
+
+$ Example = [InfoExamples.cmacc];
+
+$ _ = [../../Defined_Terms.cmacc];
+
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

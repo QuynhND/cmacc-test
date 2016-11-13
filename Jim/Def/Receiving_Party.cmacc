@@ -1,0 +1,9 @@
+$ Ti = "{{_.Receiving_Party}}";
+
+$ sec = "\"{{_.Disclosing_Party}}\" means a {{_.party}} who receives {{_.Confidential_Information}} under {{_.this_Agreement}}.";
+
+$ _ = [../Defined_Terms.cmacc];
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

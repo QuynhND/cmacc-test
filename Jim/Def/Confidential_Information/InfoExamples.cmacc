@@ -1,0 +1,19 @@
+$ cl = "{{infoTypes}} related to {{subject}}, including without limitation {{_.Disclosing_Party}}'s information concerning {{infoExamples}}";
+
+$ infoTypes = "{{infoTypes_1}}";
+
+$ infoTypes_1 = "proprietary and confidential information, ideas, techniques, sketches, drawings, works of authorship, models, inventions, know-how, processes, apparatuses, equipment, algorithms, software programs, software source documents{{_.q}} and formulae";
+
+$ subject = "{{subject_1}}";
+
+$ subject_1 = "the current, future{{_.q}} and proposed products and services of {{_.Disclosing_Party}}";
+
+$ infoExamples = "{{infoExamples_1}}";
+
+$ infoExamples_1 = "research, experimental work, development, design details and specifications, engineering, financial information, procurement requirements, purchasing, manufacturing, customer lists, investors, employees, business and contractual relationships, business forecasts, sales and merchandising{{_.q}} and marketing plans";
+
+$ _ = [../../Defined_Terms.cmacc];
+
+$ sec = "{{cl}}";
+
+{{sec}}

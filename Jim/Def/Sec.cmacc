@@ -1,0 +1,13 @@
+$ Ti = "Definitions";
+
+$ Confidential_Information = [Confidential_Information/ConfInfoSec.cmacc];
+
+$ Disclosing_Party = [Disclosing_Party.cmacc];
+
+$ Receiving_Party = [Receiving_Party.cmacc];
+
+$ sec = "<ol><li>{{Confidential_Information.Sec}}<li>{{Disclosing_Party.Sec}}<li>{{Receiving_Party.Sec}}</ol>";
+
+$ Sec="<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

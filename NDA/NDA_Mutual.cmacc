@@ -37,13 +37,13 @@ $ rep = [./3rdparty.cmacc] => {
 
 $ term_Xnum = "4";
 
-$ NoticePeriod_TimeSpan = "thirty (30) days";
+$ notice_Period_TimeSpan = "thirty (30) days";
 
-$ Life_End_YMD = "Life_End_YMD";
+$ life_End_YMD = "Life_End_YMD";
 
 $ term = [./term.cmacc] => {
- "Life_End_YMD" : Life_End_YMD,
- "NoticePeriod_TimeSpan" : NoticePeriod_TimeSpan,
+ "life_End_YMD" : life_End_YMD,
+ "notice_Period_TimeSpan" : notice_Period_TimeSpan,
  "term_Xnum" : term_Xnum
 };
 

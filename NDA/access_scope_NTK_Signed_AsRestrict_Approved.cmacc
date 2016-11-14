@@ -1,0 +1,12 @@
+$ ntk = [./access_NTK.cmacc];
+
+$ signed = [./access_Signed.cmacc];
+
+$ limit = [./access_Limit.cmacc];
+
+$ as_Restrictive = [./access_AsRestrictive.cmacc];
+
+$ approved_Form = [/.access_ApprovedForm.cmacc];
+
+
+{{limit}} {{ntk}} and {{signed}} with {{as_Restrictive}} {{approved_Form}}.

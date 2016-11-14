@@ -1,19 +1,19 @@
-$ Life_End_YMD = "Life_End_YMD";
+$ life_End_YMD = "Life_End_YMD";
 
-$ NoticePeriod_TimeSpan = "NoticePeriod_TimeSpan";
+$ notice_Period_TimeSpan = "NoticePeriod_TimeSpan";
 
 $ term_Xnum = "term_Xnum";
 
 
-{{term_Xnum}}. <h3>Termination</h3>
+<h3>{{term_Xnum}}. Termination</h3>
 
 {{term_Xnum}}.1. Term
 
-This Agreement will terminate on {{Life_End_YMD}}.
+This Agreement will terminate on {{life_End_YMD}}.
 
 {{term_Xnum}}.2. Termination
 
-This Agreement may be terminated by either Party at any time upon {{NoticePeriod_TimeSpan}} written notice to the other Party.
+This Agreement may be terminated by either Party at any time upon {{notice_Period_TimeSpan}} written notice to the other Party.
 
 {{term_Xnum}}.3. Survival
 

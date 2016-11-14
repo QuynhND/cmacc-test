@@ -50,7 +50,7 @@ $ decompile = [./decompile.cmacc];
 
 $ life_Xnum = "7";
 
-$ DurationOfConfidentiality = "3 years";
+$ conf_Duration = "3 years";
 
 $ conf_except_Xref = [../US/_xref.cmacc] => {
  "Xnum" : Xnum,
@@ -58,7 +58,7 @@ $ conf_except_Xref = [../US/_xref.cmacc] => {
 };
 
 $ life = [./life_Defined_Duration.cmacc] => {
- "DurationOfConfidentiality" : DurationOfConfidentiality,
+ "conf_Duration" : conf_Duration,
  "conf_except_Xref" : conf_except_Xref
 };
 

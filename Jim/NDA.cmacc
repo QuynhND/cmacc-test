@@ -32,4 +32,4 @@ $ Misc = [Misc/Sec.cmacc]
 
 $ Sec="<b>{{Ti}}</b><br>{{sec}}";
 
-..{{Sec}}
+{{Sec}}

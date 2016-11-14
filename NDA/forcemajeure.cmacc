@@ -1,0 +1,34 @@
+$ FM_Period = "five consecutive days";
+
+$ Effective_Date = "Effective_Date";
+
+
+<h3>Force Majeure</h3>
+
+ 1. Definition
+
+ An Event of Force Majeure means an event beyond the control of the Parties, which prevents a Party (the "Affected Party") from complying with any of its obligations under this Agreement for {{FM_Period}}, including but not limited to:
+
+ 1.1. act of God (such as, but not limited to, fires, explosions, earthquakes, drought, tidal waves and floods);
+
+ 1.2. war, hostilities (whether war be declared or not), invasion, act of foreign enemies, mobilization, requisition, or embargo;
+
+ 1.3. rebellion, revolution, insurrection, or military or usurped power, or civil war; contamination by radio-activity from any nuclear fuel, or from any nuclear waste from the combustion of nuclear fuel, radio-active toxic explosive, or other hazardous properties of any explosive nuclear assembly or nuclear component of such assembly;
+
+ 1.4. riot, commotion, strikes, go slows, lock outs or disorder, unless solely restricted to employees of the Affected Party or the Affected Party's subcontractors; or
+
+ 1.5. acts or threats of terrorism.
+
+
+ 2. Consequences of Force Majeure Event
+
+ 2.1. Neither Party shall be considered in breach of this Agreement to the extent that performance of their respective obligations (excluding payment obligations) is prevented by an Event of Force Majeure that arises after the {{Effective_Date}}.
+
+ 2.2. The Affected Party shall promptly give notice to the other Party of an Event of Force Majeure upon it being foreseen by or becoming known to the Affected Party.
+
+ 2.3. If and to the extent that an Affected Party is prevented from performing the majority of its duties under this Agreement by the Event of Force Majeure, then, while the Affected Party is so prevented the Creditor Party shall be relieved of its obligation to perform duties under this Agreement which impose any significant cost or risk on it, but shall for a reasonable time endeavor to continue to perform its obligations under this Agreement which do not impose any significant cost or risk on it.
+
+ 2.4. If and to the extent that the Creditor Party incurs additional cost because of the non-performance of the Affected Party, the Creditor Party shall be entitled to recover from the Affected Party the amount of such cost, (the Creditor Party having taken reasonable steps to mitigate the Cost).
+
+ 2.5. The Contract Period shall be extended by a period of time equal to the period of interruption caused by an Event of Force Majeure.
+

@@ -1,0 +1,12 @@
+$ The_Receiving_Party = "The_Receiving_Party";
+
+$ Confidential_Information_of_the_Disclosing_Party = "Confidential_Information_of_the_Disclosing_Party";
+
+$ Confidentiality_End_YMD = "Confidentiality_End_YMD";
+
+$ Conf_Except_Xref = "Conf_Except_Xref";
+
+
+<h3>Term of Confidentiality</h3>
+
+{{The_Receiving_Party}}'s obligations with respect to all {{Confidential_Information_of_the_Disclosing_Party}} will terminate on the earlier of {{Confidentiality_End_YMD}} or when all such information has become subject to an exclusion from confidentiality pursuant to {{Conf_Except_Xref}}.

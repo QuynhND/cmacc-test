@@ -1,0 +1,9 @@
+$ P1_Handle = "P1_Handle";
+
+$ P2_Handle = "P2_Handle";
+
+$ none = "A Party shall not subcontract or otherwise delegate or assign this Agreement or any of its obligations under this Agreement without the other Party's prior written consent.";
+
+$ notP2 = "{{P2_Handle}} shall not assign or transfer any rights or obligations under this Agreement without {{P1_Handle}}'s prior written consent.";
+
+$ notP1 = "{{P1_Handle}} shall not assign or transfer any rights or obligations under this Agreement without {{P2_Handle}}'s prior written consent.";

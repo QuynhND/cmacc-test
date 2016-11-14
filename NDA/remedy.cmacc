@@ -1,0 +1,14 @@
+$ Xnum = "Xnum";
+
+$ return = [./return.cmacc];
+
+$ leak = [./leak.cmacc];
+
+$ injunction = [./injunction.cmacc];
+
+
+{{Xnum}}. <h3>Remedies</h3>
+
+{{Xnum}}.1. {{return}}
+{{Xnum}}.2. {{leak}}
+{{Xnum}}.3. {{injunction}}

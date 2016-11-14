@@ -1,0 +1,45 @@
+$ party1 = [../ID/_person.cmacc];
+
+$ party1_Role = "party1_Role";
+
+$ party2 = [../ID/_person.cmacc];
+
+$ party2_Role = "party2_Role";
+
+$ sign_Place = "sign_Place";
+
+$ sign_Date = "sign_Date";
+
+$ signParty1 = [../US/_sign.cmacc] => {
+ "role" : party1_Role,
+ "person" : party1,
+ "sign_Place" : sign_Place,
+ "sign_Date" : sign_Date
+};
+
+$ signParty2 = [../US/_sign.cmacc] => {
+ "role" : party2_Role,
+ "person" : party2,
+ "sign_Place" : sign_Place,
+ "sign_Date" : sign_Date
+};
+
+
+IN WITNESS WHEREOF, the undersigned have caused this instrument to be duly executed and delivered.
+
+
+<table width="100%">
+<tr>
+<td>{{signParty1}}</td>
+<td>{{signParty2}}</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+

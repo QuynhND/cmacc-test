@@ -1,0 +1,40 @@
+$ Xnum = "Xnum";
+
+$ amend = [./amend.cmacc];
+
+$ assign = [./assign_Mutual.cmacc];
+
+$ entire = [./entire.cmacc];
+
+$ notice = [./notice.cmacc];
+
+$ sever = [./sever.cmacc];
+
+$ usexport = [./usexport.cmacc];
+
+$ waive = [./waive.cmacc];
+
+
+{{Xnum}}. <h3>Miscellaneous</h3>
+
+{{Xnum}}.1. <h4>Amendment</h4>
+{{amend}}
+
+{{Xnum}}.2. <h4>Successors and Assigns</h4>
+{{assign}}
+
+{{Xnum}}.3. <h4>Entire Agreement</h4>
+{{entire.base}}
+
+{{Xnum}}.4. <h4>Notices</h4>
+{{notice}}
+
+{{Xnum}}.5. <h4>Interpretation to Make Valid</h4>
+{{sever}}
+
+{{Xnum}}.6. <h4>U.S. Export Laws</h4>
+{{usexport}}
+
+{{Xnum}}.7. <h4>Waiver</h4>
+{{waive}}
+

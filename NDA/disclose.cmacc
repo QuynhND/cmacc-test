@@ -1,0 +1,16 @@
+$ Conf_ExcludeAndExcept_Xref = "Conf_ExcludeAndExcept_Xref";
+
+$ sec_0 = "Subject to {{Conf_ExcludeAndExcept_Xref}}, the Receiving Party agrees that at all times and notwithstanding any termination or expiration of this Agreement that:";
+
+$ sec_1 = "the Receiving Party will hold in strict confidence and not disclose to any third party any Confidential Information of the Disclosing_Party, except as approved in writing by the Disclosing Party";
+
+$ sec_2 = "the Receiving Party will use the Confidential Information of the Disclosing_Party for no purpose other than the Permitted Use";
+
+
+<h4>Disclosure and Use</h4>
+
+{{sec_0}}
+
+ 1. {{sec_1}} and;
+ 2. {{sec_2}}
+ 

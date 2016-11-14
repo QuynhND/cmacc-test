@@ -1,0 +1,96 @@
+$ doc_Title = "Non Disclosure Agreement";
+
+$ effective_Date = "Effective_Date";
+
+$ sign_Place = "sign_Place";
+
+$ sign_Date = "sign_Date";
+
+$ P1 = [../ID/gerrys_grapes_llc.cmacc];
+
+$ P2 = [../ID/safe_hands_inc.cmacc];
+
+$ intro = [../US/_agt_Intro_2Parties.cmacc] => {
+ "doc_Title" : doc_Title,
+ "effective_Date" : effective_Date,
+ "P1" : P1,
+ "P2" : P2
+};
+
+$ conf_Xnum = "1";
+
+$ conf = [./conf.cmacc] => {
+ "Xnum" : conf_Xnum
+};
+
+$ limit_Xnum = "2";
+
+$ limit = [./limit.cmacc] => {
+ "Xnum" : limit_Xnum
+};
+
+$ rep_Xnum = "3";
+
+$ rep = [./3rdparty.cmacc] => {
+ "Xnum" : rep_Xnum
+};
+
+$ term_Xnum = "4";
+
+$ NoticePeriod_TimeSpan = "thirty (30) days";
+
+$ Life_End_YMD = "Life_End_YMD";
+
+$ term = [./term.cmacc] => {
+ "Life_End_YMD" : Life_End_YMD,
+ "NoticePeriod_TimeSpan" : NoticePeriod_TimeSpan,
+ "term_Xnum" : term_Xnum
+};
+
+$ dispute_Xnum = "5";
+
+$ dispute = [./dispute.cmacc] => {
+ "Xnum" : dispute_Xnum
+};
+
+$ remedy_Xnum = "6";
+
+$ remedy = [./remedy.cmacc] => {
+ "Xnum" : remedy_Xnum
+};
+
+$ misc_Xnum = "7";
+
+$ misc = [./misc.cmacc] => {
+ "Xnum" : misc_Xnum
+};
+
+$ closing = [../US/_agt_End_2Parties.cmacc] => {
+ "party1" : P1.sign_Rep,
+ "party1_Role" : P1.sign_RepTitle,
+ "party2" : P2.sign_Rep,
+ "party2_Role" : P2.sign_RepTitle,
+ "sign_Place" : sign_Place,
+ "sign_Date" : sign_Date
+};
+
+
+{{intro}}
+
+
+{{conf}}
+
+{{limit}}
+
+{{rep}}
+
+{{term}}
+
+{{dispute}}
+
+{{remedy}}
+
+{{misc}}
+
+
+{{closing}}

@@ -1,0 +1,80 @@
+$ Xnum = "Xnum";
+
+$ disclose_Type = [./define_Mutual.cmacc];
+
+$ subject = "the current, future, and proposed products and services of";
+
+$ info_Types = "proprietary and confidential information, ideas, techniques, sketches, drawings, works of authorship, models, inventions, know-how, processes, apparatuses, equipment, algorithms, software programs, software source documents, and formulae";
+
+$ info_Examples = "research, experimental work, development, design details and specifications, engineering, financial information, procurement requirements, purchasing, manufacturing, customer lists, investors, employees, business and contractual relationships, business forecasts, sales and merchandising, and marketing plans";
+
+$ conf_Infos = [./conf_Infos.cmacc] => {
+ "subject" : subject,
+ "info_Types" : info_Types,
+ "info_Examples" : info_Examples
+};
+
+$ def_Xnum = "1";
+
+$ def = [./define.cmacc] => {
+ "conf_Infos" : conf_Infos,
+ "disclose_Type" : disclose_Type
+};
+
+$ engage_Xnum = "2";
+
+$ engage = [./engage.cmacc] => {
+ "engage_Xnum" : engage_Xnum,
+ "Xnum" : Xnum
+};
+
+$ except_Xnum = "3";
+
+$ except_Item = [./except_WP_BP_Had.cmacc];
+
+$ except = [./except.cmacc] => {
+ "except_Item" : except_Item
+};
+
+$ except_Compeled_Xnum = "4";
+
+$ except_Compeled = [./except_Compeled.cmacc];
+
+$ copy_Xnum = "5";
+
+$ copy = [./copy.cmacc];
+
+$ decompile_Xnum = "6";
+
+$ decompile = [./decompile.cmacc];
+
+$ life_Xnum = "7";
+
+$ DurationOfConfidentiality = "3 years";
+
+$ conf_except_Xref = [../US/_xref.cmacc] => {
+ "Xnum" : Xnum,
+ "sec_Xnum" : except_Xnum
+};
+
+$ life = [./life_Defined_Duration.cmacc] => {
+ "DurationOfConfidentiality" : DurationOfConfidentiality,
+ "conf_except_Xref" : conf_except_Xref
+};
+
+
+<h3>{{Xnum}}. Confidentiality</h3>
+
+{{Xnum}}.{{def_Xnum}}. {{def}}
+
+{{Xnum}}.{{engage_Xnum}}. {{engage}}
+
+{{Xnum}}.{{except_Xnum}}. {{except}}
+
+{{Xnum}}.{{except_Compeled_Xnum}}. {{except_Compeled.ti}} {{except_Compeled.sec1}}
+
+{{Xnum}}.{{copy_Xnum}}. {{copy}}
+
+{{Xnum}}.{{decompile_Xnum}}. {{decompile}}
+
+{{Xnum}}.{{life_Xnum}}. {{life}}

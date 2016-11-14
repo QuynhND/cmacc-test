@@ -1,0 +1,15 @@
+$ P1_Handle = "P1_Handle";
+
+$ P2_Handle = "P2_Handle";
+
+$ mutual = "Subject to the foregoing, this Agreement will be for the benefit of each Party's successors and assigns, and will be binding on each Party's assignees.";
+
+$ P2Binding = [./assign_BindingP2.cmacc] => {
+ "P1_Handle" : P1_Handle,
+ "P2_Handle" : P2_Handle
+};
+
+$ P1Binding = [./assign_BindingP1.cmacc] => {
+ "P1_Handle" : P1_Handle,
+ "P2_Handle" : P2_Handle
+};

@@ -1,0 +1,24 @@
+$ Xnum = "Xnum";
+
+$ engage_Xnum = "engage_Xnum";
+
+$ disclose_Xnum = "1";
+
+$ care_Xnum = "2";
+
+$ access_Xnum = "3";
+
+$ disclose = [./disclose.cmacc];
+
+$ care = [./care.cmacc];
+
+$ access = [./access_scope_NTK_Signed.cmacc];
+
+
+<h4>Engagement</h4>
+
+{{Xnum}}.{{engage_Xnum}}.{{disclose_Xnum}}. {{disclose}}
+
+{{Xnum}}.{{engage_Xnum}}.{{care_Xnum}}. {{care}}
+
+{{Xnum}}.{{engage_Xnum}}.{{access_Xnum}}. {{access}} 

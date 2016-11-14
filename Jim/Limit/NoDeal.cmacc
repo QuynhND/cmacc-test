@@ -1,0 +1,9 @@
+$ Ti = "No Agreement to Deal";
+
+$ sec = "Neither {{_.this_Agreement}} nor the disclosure of any {{_.Confidential_Information}} hereunder shall result in any obligation on the part of either {{_.party}} to enter into any further agreement with the other, license any products or services to the other{{_.q}} or to require either {{_.party}} to disclose any particular {{_.Confidential_Information}}.";
+
+$ _ = [../Defined_Terms.cmacc];
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

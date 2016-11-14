@@ -1,0 +1,14 @@
+$ Ti = "Termination";
+
+$ Term = [Term.cmacc];
+
+$ Stop = [Stop.cmacc];
+
+$ Survive = [Survive.cmacc];
+
+$ sec="<ol><li>{{Term.Sec}}<li>{{Stop.Sec}}<li>{{Survive.Sec}}</ol>";
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}
+

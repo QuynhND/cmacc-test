@@ -4,7 +4,7 @@ $ sec = "Any waiver or failure to enforce any provision of {{_.this_Agreement}} 
 
 $ ByParty_cl = "by a {{_.party}}";
 
-$ Sec = "<b>{{Ti}}</br>{{sec}}";
+$ Sec = "<b>{{Ti}}</b></br>{{sec}}";
 
 $ _ = [../Defined_Terms.cmacc]
 

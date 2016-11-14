@@ -1,0 +1,9 @@
+$ Ti = "Forum";
+
+$ sec = "Any disputes under {{_.this_Agreement}} may be brought in the state courts and the Federal courts for the county in which {{_.P1_Handle}}'s principal place of business is located, and the parties hereby consent to the personal jurisdiction and exclusive venue of these courts.";
+
+$ _ = [../Defined_Terms.cmacc];
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

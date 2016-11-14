@@ -1,0 +1,13 @@
+$ Ti = "Remedies";
+
+$ Return = [Return/Sec.cmacc];
+
+$ Leak = [Leak/Sec.cmacc];
+
+$ Injunction = [Injunction/Sec.cmacc];
+
+$ sec = "<ol><li>{{Return.Sec}}<li>{{Leak.Sec}}<li>{{Injunction.Sec}}</ol>";
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

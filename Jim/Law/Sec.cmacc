@@ -1,0 +1,11 @@
+$ Ti = "Law";
+
+$ sec = "{{_.This_Agreement}} and any action related thereto will be governed, controlled, interpreted{{_.q}} and defined by and under the laws of {{State_the}}, without giving effect to any conflicts of laws principles that require the application of the law of a different state.";
+
+$ State_the = "<u>State_the</u>";
+
+$ _ = [../Defined_Terms.cmacc];
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

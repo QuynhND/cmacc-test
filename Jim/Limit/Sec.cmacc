@@ -1,0 +1,13 @@
+$ Ti = "Limits";
+
+$ NoDeal = [NoDeal.cmacc];
+
+$ NoAgency = [NoAgency.cmacc];
+
+$ NoWarrantyOnInfo = [NoWarrantyOnInfo.cmacc];
+
+$ sec = "<ol><li>{{NoDeal.Sec}}<li>{{NoAgency.Sec}}<li>{{NoWarrantyOnInfo.Sec}}</ol>";
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+ 
+{{Sec}}

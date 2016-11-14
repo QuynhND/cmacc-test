@@ -1,0 +1,9 @@
+$ Ti = "U.S. Export Laws";
+
+$ sec = "{{_.Receiving_Party}} will not export, directly or indirectly, any U.S. technical data acquired pursuant to {{_.this_Agreement}}, or any products utilizing such data, in violation of the United States export laws or regulations.";
+
+$ _ = [../../../Defined_Terms.cmacc];
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

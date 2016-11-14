@@ -1,0 +1,9 @@
+$ Ti = "Copying";
+
+$ sec = "{{_.Receiving_Party}} will not reproduce {{_.Confidential_Information_of_Disclosing_Party}} in any form except as required to accomplish the intent of {{_.this_Agreement}}. Any reproduction by a {{_.Receiving_Party}} of any {{_.Confidential_Information_of_Disclosing_Party}} will remain the property of {{_.Disclosing_Party}} and will contain any and all confidential or proprietary notices or legends that appear on the original, unless otherwise authorized in writing by {{_.Disclosing_Party}}.";
+
+$ _ = [../../Defined_Terms.cmacc];
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

@@ -1,0 +1,11 @@
+$ Ti = "Termination";
+
+$ sec = "{{_.This_Agreement}} may be terminated by either {{_.party}} at any time upon {{NoticePeriod_span}} written notice to the other {{_.party}}.";
+
+$ NoticePeriod_span = "<u>thirty (30) days</u>";
+
+$ _ = [../Defined_Terms.cmacc];
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

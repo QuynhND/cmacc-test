@@ -172,3 +172,25 @@ he.cmacc, she.cmacc and maybe it.cmacc at some point (IoT)
 Generic forms related to pronouns are kept in the Country folder. This allows to build documents that can then be customize to reflect the sex of the person, or whether they are for a group (we) or for an individual (I). So we have _pron.cmacc, _plur.cmacc, _sing.cmacc, and generic forms like signature blocks, that can be re-used from one document to the other: _sign_Block_2.cmacc, _sign.cmacc etc.
 
 The list of generic forms available will grow as we identify re-usable pieces in the production of documents. Feel free to submit you own form as you see fit.
+
+### Numbering
+
+If you want to track sections in a doc, you can use section_Xnum to set the section number, and then you can refer to it in other parts of the document.
+For example:
+
+```
+$ conf_Xnum = "2";
+
+$ IP_Xnum = "3";
+
+$ law_Xnum = "4";
+
+```
+
+and then in the document the sections can be shown as this:
+
+```
+{{conf_Xnum}}. Section on confidentiality refering to IP information as described in section {{IP_Xnum}}
+{{IP_Xnum}}. Section on Intellectual Property
+{{law_Xnum}}.Section on jurisdiction
+```

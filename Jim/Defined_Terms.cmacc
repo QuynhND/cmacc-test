@@ -1,19 +1,19 @@
-$ This_Agreement ="<b>This Agreement</b>";
+$ This_Agreement = "**This Agreement**";
 
-$ this_Agreement ="<b>this Agreement</b>";
+$ this_Agreement = "**this Agreement**";
 
-$ q =",";
+$ q = ",";
 
-$ P1_Handle="<b>Party 1</b>";
+$ P1_Handle = "**Party 1**";
 
-$ P2_Handle="<b>Party 2</b>";
+$ P2_Handle = "**Party 2**";
 
-$ party="<b>party</b>";
+$ party = "**party**";
 
-$ parties="<b>parties</b>";
+$ parties = "**parties**";
 
-$ Project_Assignment ="<b>Project Assignment</b>";
+$ Project_Assignment = "**Project Assignment**";
 
-$ Client = "<b>Client</b>";
+$ Client = "**Client**";
 
-$ Consultant = "<b>Consultant</b>";
+$ Consultant = "***Consultant***";

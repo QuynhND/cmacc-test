@@ -6,9 +6,8 @@ $ sign_Place = "sign_Place";
 
 $ sign_Date = "sign_Date";
 
-Role: {{role}}
-
+Role: {{role}}  
 Name: {{person.name_Full}}  
-Place: {{sign_Place}}
-Date: {{sign_Date}}
+Place: {{sign_Place}}  
+Date: {{sign_Date}}  
 -------------------------

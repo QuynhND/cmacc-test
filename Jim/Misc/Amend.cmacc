@@ -7,4 +7,3 @@ $ Sec="<b>{{Ti}}</b><br>{{sec}}";
 $ _ = [../Defined_Terms.cmacc]
 
 {{Sec}}
-

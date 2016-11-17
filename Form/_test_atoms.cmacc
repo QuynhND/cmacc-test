@@ -2,8 +2,7 @@ $ what_section1 = "what section 1";
 
 $ what_section2 = "what section 2";
 
-$ 00 = [../Form/draft6.cmacc] => {
-};
+$ 00 = [../Form/draft6.cmacc];
 
 {{00.intro}}
 

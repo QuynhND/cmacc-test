@@ -1,6 +1,6 @@
 $ Xnum = "Xnum";
 
-$ return = [./return.cmacc];
+$ return1 = [./return.cmacc];
 
 $ leak = [./leak.cmacc];
 
@@ -8,6 +8,6 @@ $ injunction = [./injunction.cmacc];
 
 <h3>{{Xnum}}. Remedies</h3>
 
-{{Xnum}}.1. {{return}}
+{{Xnum}}.1. {{return1}}
 {{Xnum}}.2. {{leak}}
 {{Xnum}}.3. {{injunction}}

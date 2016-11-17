@@ -16,6 +16,5 @@ $ sec ="<ol><li>{{Amend.Sec}}<li>{{Assign.Sec}}<li>{{Entire.Sec}}<li>{{Notice.Se
 
 $ Sec="<b>{{Ti}}</b><br>{{sec}}";
 
-
 {{Sec}}
 

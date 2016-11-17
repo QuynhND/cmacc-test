@@ -1,10 +1,10 @@
-$ Dispute_Notice_Within_Days = "5 days";
+$ Dispute_Notice_Within_Days = "5 days 123";
 
 $ DeliveryClaim_Delay = "24 hours";
 
 $ DeliveryPayment_TimeSpan = "48 hours";
 
-$ Escrow_Fee_USD = "$1.50";
+$ Escrow_Fee_USD = "$1.544";
 
 $ seller = [../ID/gerrys_grapes_llc.cmacc];
 
@@ -78,7 +78,6 @@ $ offer = [./Escrow.cmacc] => {
 	"Arb_Org" : arb.org,
 	"Arb_Court_CountyState" : arb.state,
 };
-
 
 {{offer}}
 

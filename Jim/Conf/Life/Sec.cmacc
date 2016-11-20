@@ -1,0 +1,21 @@
+$ Ti = "Term of Confidentiality";
+
+$ Endless_sec = "{{_.Receiving_Party}}'s obligations with respect to all {{_.Confidential_Information_of_Disclosing_Party}} will terminate only pursuant to {{Xref.Except}}.";
+
+$ FixedDate_sec = "{{_.Receiving_Party}}'s obligations with respect to all {{_.Confidential_Information_of_Disclosing_Party}} will terminate on the earlier of {{End_YMD}} or when all such information has become subject to an exclusion from confidentiality pursuant to {{Xref.Except}}.";
+
+$ FromDisclosure_sec = "{{_.Receiving_Party}}'s obligations with respect to each element of {{_.Confidential_Information_of_Disclosing_Party}} will terminate on the earlier of {{DurationOfConfidentiality_timespan}} after the time such element was communicated by {{_.Disclosing_Party}} to {{_.Receiving_Party}} or when all such information has become subject to an exclusion from confidentiality pursuant to {{Xref.Except}}.";
+
+$ End_YMD = "<u>End_YMD</u>";
+
+$ DurationOfConfidentiality_timespan = "<u>DurationOfConfidentiality_timespan</u>";
+
+$ sec = "{{FixedDate_sec}}";
+
+$ Xref = [../../Xref.cmacc]
+
+$ _ = [../../Defined_Terms.cmacc]
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

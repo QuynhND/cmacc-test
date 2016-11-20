@@ -35,7 +35,6 @@ $ Example = [InfoExamples.cmacc];
 
 $ _ = [../../Defined_Terms.cmacc];
 
-
 $ Sec= "<b>{{Ti}}</b><br>{{sec}}";
 
 {{Sec}}

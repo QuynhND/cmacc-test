@@ -1,0 +1,11 @@
+$ Ti = "Disclosure";
+
+$ sec = "Subject to {{Xref.ExcludeAndExcept}}, {{_.Receiving_Party}} agrees that at all times and notwithstanding any termination or expiration of {{_.this_Agreement}} that {{_.Receiving_Party}} will hold in strict confidence and not disclose any {{_.Confidential_Information_of_Disclosing_Party}}.";
+
+$ _ = [../../../Defined_Terms.cmacc]
+
+$ Xref = [../../../Xref.cmacc]
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

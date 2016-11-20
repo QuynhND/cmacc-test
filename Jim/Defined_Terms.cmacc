@@ -16,12 +16,18 @@ $ Disclosing_Party ="<b>Disclosing Party</b>";
 
 $ Receiving_Party ="<b>Receiving Party</b>";
 
-$ Confidential_Information = "Confidential Information";
+$ Confidential_Information = "<b>Confidential Information</b>";
 
-$ Confidential_Information_of_Disclosing_Party = "Confidential Information of Disclosing Party";
+$ Confidential_Information_of_Disclosing_Party = "{{Confidential_Information}} of {{Disclosing_Party}}";
+
+$ Confidentiality_Engagement ="<b>Confidentiality Engagement</b>";
+
+$ Confidentiality_Engagements ="<b>Confidentiality Engagements</b>";
 
 $ Project_Assignment ="<b>Project Assignment</b>";
 
 $ Client = "<b>Client</b>";
 
 $ Consultant = "<b>Consultant</b>";
+
+$ Purpose = "<b>Purpose</b>";

@@ -1,0 +1,15 @@
+$ Ti = "Confidentiality_Engagements";
+
+$ sec = "<ol><li>{{Disclose.Sec}}<li>{{Use.Sec}}<li>{{Care.Sec}}<li>{{Access.Sec}}</ol>";
+
+$ Disclose = [Disclose/Sec.cmacc]
+
+$ Use = [Use/Sec.cmacc]
+
+$ Care = [Care/Sec.cmacc]
+
+$ Access = [Access/Sec.cmacc]
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

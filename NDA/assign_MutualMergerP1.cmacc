@@ -1,0 +1,14 @@
+$ assign = [./assign_Alt.cmacc];
+
+$ merger = [./assign_Merger.cmacc];
+
+$ benefit = [./assign_Binding.cmacc];
+
+
+<h3>Successors and Assigns</h3>
+
+{{assign.none}} 
+{{merger.noExcept}}{{merger.P1Allowed}} 
+{{benefit.mutual}}
+
+

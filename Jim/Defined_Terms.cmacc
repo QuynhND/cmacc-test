@@ -1,17 +1,18 @@
-$ This_Agreement ="<b>This Agreement</b>";
+$ This_Agreement = "**This Agreement**";
 
-$ this_Agreement ="<b>this Agreement</b>";
+$ this_Agreement = "**this Agreement**";
 
-$ q =",";
+$ q = ",";
 
-$ P1_Handle="<b>Party 1</b>";
+$ P1_Handle = "**Party 1**";
 
-$ P2_Handle="<b>Party 2</b>";
+$ P2_Handle = "**Party 2**";
 
-$ party="<b>party</b>";
+$ party = "**party**";
 
-$ parties="<b>parties</b>";
+$ parties = "**parties**";
 
+<<<<<<< HEAD
 $ Disclosing_Party ="<b>Disclosing Party</b>";
 
 $ Receiving_Party ="<b>Receiving Party</b>";
@@ -25,9 +26,16 @@ $ Confidentiality_Engagement ="<b>Confidentiality Engagement</b>";
 $ Confidentiality_Engagements ="<b>Confidentiality Engagements</b>";
 
 $ Project_Assignment ="<b>Project Assignment</b>";
+=======
+$ Project_Assignment = "**Project Assignment**";
+>>>>>>> mdangear/master
 
-$ Client = "<b>Client</b>";
+$ Client = "**Client**";
 
+<<<<<<< HEAD
 $ Consultant = "<b>Consultant</b>";
 
 $ Purpose = "<b>Purpose</b>";
+=======
+$ Consultant = "***Consultant***";
+>>>>>>> mdangear/master

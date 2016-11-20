@@ -1,0 +1,6 @@
+$ Xnum = "Xnum";
+
+$ sec_Xnum = "sec_Xnum";
+
+
+Section {{Xnum}}.{{sec_Xnum}}

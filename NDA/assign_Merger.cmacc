@@ -1,0 +1,7 @@
+$ noExcept = "Any attempted assignment, subcontract, delegation, or transfer in violation of the foregoing shall be null and void";
+
+$ mergerAllowed = ", except that either {{Party}} may assign {{this_Agreement}} without such consent to its successor in interest by way of merger, acquisition or sale of all or substantially all of its assets.";
+
+$ P1Allowed = ", except that {{P1_the}} may assign {{this_Agreement}} without such consent to its successor in interest by way of merger, acquisition or sale of all or substantially all of its assets.";
+
+$ P2Allowed = ", except that {{P2_the}} may assign {{this_Agreement}} without such consent to its successor in interest by way of merger, acquisition or sale of all or substantially all of its assets.";

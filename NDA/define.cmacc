@@ -1,0 +1,22 @@
+$ conf_Infos = "conf_Infos";
+
+$ disclose_Type = "define_Type";
+
+
+<h4>Definition</h4>
+
+As used herein, the "Confidential Information" shall mean any and all technical and non-technical information disclosed
+
+{{disclose_Type}}
+
+including without limitation information regarding
+
+1. patent and patent applications
+
+2. trade secrets
+
+3. {{conf_Infos}}
+
+4. information the Disclosing Party provides regarding third parties
+
+5. all other information that the Receiving Party knew, or reasonably should have known, was the Confidential Information of the_Disclosing Party

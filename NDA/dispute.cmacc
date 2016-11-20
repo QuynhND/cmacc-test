@@ -1,0 +1,12 @@
+$ Xnum = "Xnum";
+
+$ law = [./law.cmacc];
+
+$ forum = [./court.cmacc];
+
+
+<h3>{{Xnum}}. Dispute Resolution</h3>
+
+{{Xnum}}.1. {{law}}
+
+{{Xnum}}.2. {{forum}}

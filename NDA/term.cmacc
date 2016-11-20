@@ -1,0 +1,20 @@
+$ life_End_YMD = "Life_End_YMD";
+
+$ notice_Period_TimeSpan = "NoticePeriod_TimeSpan";
+
+$ term_Xnum = "term_Xnum";
+
+
+<h3>{{term_Xnum}}. Termination</h3>
+
+{{term_Xnum}}.1. Term
+
+This Agreement will terminate on {{life_End_YMD}}.
+
+{{term_Xnum}}.2. Termination
+
+This Agreement may be terminated by either Party at any time upon {{notice_Period_TimeSpan}} written notice to the other Party.
+
+{{term_Xnum}}.3. Survival
+
+The Receiving Party's obligations with respect to Confidential Information of the Disclosing_Party will survive termination of this Agreement.

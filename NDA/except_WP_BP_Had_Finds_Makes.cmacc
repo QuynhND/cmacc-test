@@ -1,0 +1,15 @@
+$ wasPublic = [./except_WP.cmacc];
+
+$ becomesPublic = [./except_BP.cmacc];
+
+$ had = [./except_Had.cmacc];
+
+$ finds = [./except_Finds.cmacc];
+
+$ makes = [./except_Makes.cmacc];
+
+1. {{wasPublic}};
+2. {{becomesPublic}};
+3. {{had}};
+4. {{finds}} or
+5. {{makes}}.

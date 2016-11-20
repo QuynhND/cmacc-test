@@ -1,16 +1,24 @@
+$ conf_Xnum = "conf_Xnum";
+
 $ confidentiality = "confidentiality";
+
+$ IP_Xnum = "IP_Xnum";
 
 $ intellectual_Property = "intellectual_Property";
 
+$ law_Xnum = "law_Xnum";
+
 $ jurisdiction = "jurisdiction";
+
+$ misc_Xnum = "misc_Xnum";
 
 $ misc = "misc";
 
 
-{{confidentiality}}
+{{conf_Xnum}}. {{confidentiality}}
 
-{{intellectual_Property}}
+{{IP_Xnum}}. {{intellectual_Property}}
 
-{{jurisdiction}}
+{{law_Xnum}}. {{jurisdiction}}
 
-{{misc}}
+{{misc_Xnum}}. {{misc}}

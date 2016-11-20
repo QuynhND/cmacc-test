@@ -10,7 +10,20 @@ $ why_Sec = [./_agt_Recitals.cmacc];
 
 $ that_Sec = [./_agt_That.cmacc];
 
-$ text_Sec = [./_agt_Body.cmacc];
+$ conf_Xnum = "2";
+
+$ IP_Xnum = "3";
+
+$ law_Xnum = "4";
+
+$ misc_Xnum = "5";
+
+$ text_Sec = [./_agt_Body.cmacc] => {
+ "conf_Xnum" : conf_Xnum,
+ "IP_Xnum" : IP_Xnum,
+ "law_Xnum" : law_Xnum,
+ "misc_Xnum" : misc_Xnum
+};
 
 $ by_Sec = [../US/_sign_Block_2.cmacc];
 

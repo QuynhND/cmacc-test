@@ -1,6 +1,7 @@
-$ A.Town_Name = "North Ontario";
+$ A = [./1.cmacc] => {
+ "Town_Name" : "North Ontario"
+};
 
-$ A = [1.cmacc]
 
 {{A.Sec}}
 

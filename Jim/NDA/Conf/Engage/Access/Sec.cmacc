@@ -1,0 +1,39 @@
+$ Ti = "Access";
+
+$ HumanSolely_sec = "{{_.Receiving_Party}} is an individual and will not permit any other person to have access to {{_.Confidential_Information_of_Disclosing_Party}}.";
+
+$ Entity_sec = "{{Limit_Cl}} {{Role_sec}}{{Cond_sec}}.";
+
+$ Entity_EODLA_Know_Sign_Form_sec = "{{Limit_Cl}} {{Role_EmpsOffDirLawAcct_cl}}{{Cond_NeedKnow_Sign_AsRestrictive_Form_cl}}.";
+
+$ Limit_Cl = "{{_.Receiving_Party}} will restrict access to {{_.Confidential_Information_of_Disclosing_Party}} only to ";
+
+$ Role_sec = "{{Role_EmpsOffDirLawAcct_cl}}";
+
+$ Role_EmpsAndReps_cl = "those of {{_.Receiving_Party}}'s employees or authorized representatives ";
+
+$ Role_EmpsOffDirLawAcct_cl = "those of {{_.Receiving_Party}}'s employees, officers, directors, lawyers{{_.q}} and accountants ";
+
+$ Cond_NeedKnow_Sign_cl = "{{Cond_NeedKnow_cl}} and {{Condition_Signed_cl}}";
+
+$ Cond_NeedKnow_Sign_AsRestrictive_cl = "{{Cond_NeedKnow_cl}} and {{Condition_Signed_cl}} with {{Condition_AsRestrictive_cl}}";
+
+$ Cond_NeedKnow_Sign_AsRestrictive_Form_cl = "{{Cond_NeedKnow_cl}} and {{Condition_Signed_cl}} with {{Condition_AsRestrictive_cl}} {{Condition_ApprovedForm_cl}}";
+
+$ Cond_NeedKnow_cl = "who have a need to know";
+
+$ Cond_sec ="{{Cond_NeedKnow_Sign_AsRestrictive_Form_cl}}";
+
+$ Condition_Signed_cl = "who have signed confidentiality agreements";
+
+$ Condition_AsRestrictive_cl = "confidentiality obligations at least as restrictive as those contained in {{_.this_Agreement}}";
+
+$ Condition_ApprovedForm_cl = "in a form approved in advance by {{_.Disclosing_Party}}";
+
+$ sec ="{{Entity_sec}}";
+
+$ _ = [../../../Defined_Terms.cmacc]
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

@@ -1,0 +1,11 @@
+$ Ti = "Term";
+
+$ sec = "{{_.This_Agreement}} will terminate on {{End_YMD}}.";
+
+$ _ = [../Defined_Terms.cmacc];
+
+$ End_YMD = "<u>End_YMD</u>";
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

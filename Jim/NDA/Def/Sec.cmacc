@@ -1,0 +1,19 @@
+$ Ti = "Definitions";
+
+$ Confidential_Information = [Confidential_Information/Sec.cmacc]
+
+$ Confidentiality_Engagement = [Confidentiality_Engagement.cmacc]
+
+$ Disclosing_Party = [Disclosing_Party.cmacc]
+
+$ Purpose = [Purpose.cmacc]
+
+$ Receiving_Party = [Receiving_Party.cmacc]
+
+$ sec = "<ol><li>{{Confidential_Information.Sec}}<li>{{Confidentiality_Engagement.Sec}}<li>{{Disclosing_Party.Sec}}<li>{{Purpose.Sec}}<li>{{Receiving_Party.Sec}}</ol>";
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}
+
+

@@ -1,0 +1,9 @@
+$ Ti = "No Warranty Regarding Information";
+
+$ sec = "<span style=\"text-transform: uppercase\">{{_.Disclosing_Party}} is providing {{_.Confidential_Information}} on an \"as is\" basis for use by {{_.Receiving_Party}} at its own risk. {{_.Disclosing_Party}} disclaims all warranties, whether express, implied{{_.q}} or statutory, including without limitation any implied warranties of title, non-infringement or third party rights, merchantability{{_.q}} or fitness for a particular purpose.</span>";
+
+$ _ = [../Defined_Terms.cmacc];
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

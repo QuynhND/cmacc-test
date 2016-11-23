@@ -1,0 +1,9 @@
+$ Ti = "Care";
+
+$ sec = "{{_.Receiving_Party}} will protect {{_.Confidential_Information}} with a degree of care that is at least the same as {{_.Receiving_Party}} uses to protect its own confidential information, and in any event at least a reasonable degree of care.";
+
+$ _ = [../../../Defined_Terms.cmacc];
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

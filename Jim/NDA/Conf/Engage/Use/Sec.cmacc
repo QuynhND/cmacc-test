@@ -1,0 +1,13 @@
+$ Ti = "Use";
+
+$ Purpose_sec = "{{_.Receiving_Party}} agrees that at all times and notwithstanding any termination or expiration of {{_.this_Agreement}} that {{_.Receiving_Party}} will use {{_.Confidential_Information_of_Disclosing_Party}} only for the {{_.Purpose}}. ";
+
+$ Derivative_sec = "{{_.Receiving_Party}} will not make, have made, use{{_.q}} or sell for any purpose any service, product{{_.q}} or item using, incorporating{{_.q}} or derived from any {{_.Confidential_Information_of_Disclosing_Party}}. ";
+
+$ sec = "<ol><li>{{Purpose_sec}}<li>{{Derivative_sec}}</ol>";
+
+$ _ = [../../../Defined_Terms.cmacc]
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

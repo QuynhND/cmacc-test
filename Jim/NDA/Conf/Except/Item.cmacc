@@ -1,0 +1,45 @@
+$ Note = "List of Exceptions, expressed as clauses:";
+
+$ WasPublic_cl = "was in the public domain at the time it was disclosed to {{_.Receiving_Party}}";
+
+$ BecomesPublic_cl = "entered the public domain subsequent to the time it was disclosed to {{_.Receiving_Party}}, through no fault of {{_.Receiving_Party}}";
+
+$ Had_cl = "was in {{_.Receiving_Party}}'s possession free of any obligation of confidence at the time it was disclosed to {{_.Receiving_Party}}";
+
+$ Finds_cl = "was rightfully communicated to {{_.Receiving_Party}} free of any obligation of confidence subsequent to the time it was disclosed to {{_.Receiving_Party}}";
+
+$ Makes_cl = "was developed by employees or agents of {{_.Receiving_Party}} who had no access to any {{_.Confidential_Information}}";
+
+$ Compelled_cl = "is required to be disclosed by law or judicial order, to the extent so required";
+
+$ Note = "Each exception, preceded by an \"li\" to enable easy concatenation into lists that can be pruned by the use by knocking out or rearranging elements.";
+
+$ WasPublic_Li = "<li>{{WasPublic_cl}}";
+
+$ BecomesPublic_Li = "<li>{{BecomesPublic_cl}}";
+
+$ Had_Li = "<li>{{Had_cl}}";
+
+$ Note = "List Kits:";
+
+$ WP_BP_Had_Finds_Makes_li = "{{WasPublic_cl}};<li>{{BecomesPublic_cl}};<li>{{Had_cl}};<li>{{Finds_cl}}; or<li>{{Makes_cl}}.";
+
+$ WP_BP_Had_Finds_li = "{{WasPublic_Li}};{{BecomesPublic_Li}};{{Had_Li}}; or{{Finds_Li}}.";
+
+$ WPHFMC_sec = "<ol>{{WasPublic_Li}};{{BecomesPublic_Li}};{{Had_Li}};{{Finds_Li}};{{Makes_Li}}; or{{Compelled_Li}}.</ol>";
+
+$ Finds_Li = "<li>{{Finds_cl}}";
+
+$ Makes_Li = "<li>{{Makes_cl}}";
+
+$ Compelled_Li = "<li>{{Compelled_cl}}";
+
+$ List = "E.g.<ol><li>{{WP_BP_Had_Finds_Makes_li}}<li>{{WPHFMC_LI}}</ol>";
+
+$ _ = [../../Xref.cmacc]
+
+$ _ = [../../Defined_Terms.cmacc]
+
+$ sec= "{{WPHFMC_sec}}";
+
+{{sec}}

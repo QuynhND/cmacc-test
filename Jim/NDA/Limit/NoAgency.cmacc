@@ -1,0 +1,9 @@
+$ Ti = "No Agency";
+
+$ sec = "Nothing in {{_.this_Agreement}} creates or shall be deemed to create any employment, joint venture{{_.q}} or agency between the {{_.parties}}.";
+
+$ _ = [../Defined_Terms.cmacc];
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

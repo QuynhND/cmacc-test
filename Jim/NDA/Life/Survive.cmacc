@@ -1,0 +1,9 @@
+$ Ti = "Survival";
+
+$ sec = "{{_.Receiving_Party}}'s obligations with respect to {{_.Confidential_Information_of_Disclosing_Party}} will survive termination of {{_.this_Agreement}}.";
+
+$ _ = [../Defined_Terms.cmacc];
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

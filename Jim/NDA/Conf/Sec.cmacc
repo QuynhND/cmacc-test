@@ -1,0 +1,15 @@
+$ Ti = "Confidentiality";
+
+$ Engage = [Engage/Sec.cmacc]
+
+$ Copy = [Copy/Sec.cmacc]
+
+$ Decompile = [Decompile/Sec.cmacc]
+
+$ Life = [Life/Sec.cmacc]
+
+$ sec = "<ol>{{Engage.Sec}}<li>{Except.Sec}}<li>{Except.Compelled.Sec}}<li>{{Copy.Sec}}<li>{{Decompile.Sec}}<li>{{Life.Sec}}</ol>";
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

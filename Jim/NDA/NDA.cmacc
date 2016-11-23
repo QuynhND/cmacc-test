@@ -1,0 +1,35 @@
+$ Note = "Courtesy of CooleyGo.com. With permission but without endorsement.";
+
+$ Agt_Ti = "Mutual Non-Disclosure Agreement";
+
+$ Ti = "<b><center>{{Agt_Ti}}<br></center></b>";
+
+$ sec = "<ol><li>{Conf_Sec}}<li>{{Relate_Sec}}<li>{{General_Sec}}</ol>";
+
+$ Relate_Sec = "<b>Relationship</b><ol><li>{{Limit.Sec}}<li>{{Ownership.Sec}}<li>{{Rep.Sec}}<li>{{Law.Sec}}<li>{{Tribunal.Sec}}<li>{{Remedy.Sec}}<li>{{ExportControl.Sec}}</ol>";
+
+$ General_Sec = "<b>General</b><ol><li>{{Life.Sec}}<li>{{Misc.Sec}}<li>{{Def.Sec}}</ol>";
+
+$ Ownership = [Ownership/NoLicense.cmacc]
+
+$ Rep = [Rep/Discloser/NoViolationOf3PartyRight.cmacc]
+
+$ Law = [Law/Sec.cmacc]
+
+$ Tribunal = [Tribunal/Sec.cmacc]
+
+$ Remedy = [Remedy/Sec.cmacc]
+
+$ ExportControl = [Cov/ExportControl/US/Sec.cmacc];
+
+$ Limit = [Limit/Sec.cmacc]
+
+$ Life = [Life/Sec.cmacc]
+
+$ Def = [Def/Sec.cmacc]
+
+$ Misc = [Misc/Sec.cmacc]
+
+$ Sec="<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

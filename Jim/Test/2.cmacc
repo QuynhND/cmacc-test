@@ -1,0 +1,7 @@
+$ A = [./1.cmacc] => {
+ "Town_Name" : "North Ontario"
+};
+
+
+{{A.Sec}}
+

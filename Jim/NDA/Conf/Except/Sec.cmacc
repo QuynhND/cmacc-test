@@ -1,0 +1,17 @@
+$ Note = "Let us make a full list of the kinds of exceptions to confidentiality. Then make them into kits for particular situations. And give them names. ";
+
+$ Ti = "Exceptions to Confidentiality";
+
+$ Intro_sec = "{{_.Receiving_Party}} will not have any obligations under {{_.this_Agreement}} with respect to a specific portion of {{_.Confidential_Information}} if {{_.Receiving_Party}} can demonstrate with competent evidence that such portion of {{_.Confidential_Information}}:";
+
+$ Item_sec = "{{Item.WP_BP_Had_Finds_Makes_li}}";
+
+$ Item = [Item.cmacc]
+
+$ sec= "{{Intro_sec}}<ol><li>{{Item_sec}}</ol>";
+
+$ _ = [../../Defined_Terms.cmacc];
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

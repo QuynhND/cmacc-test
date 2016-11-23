@@ -1,0 +1,9 @@
+$ Ti = "Injunctions";
+
+$ sec = "{{_.Receiving_Party}} hereby agrees that its breach of {{_.this_Agreement}} will cause irreparable damage to {{_.Disclosing_Party}} for which recovery of damages would be inadequate, and that {{_.Disclosing_Party}} will be entitled to obtain timely injunctive relief under {{_.this_Agreement}}, as well as such further relief as may be granted by a court of competent jurisdiction.";
+
+$ _ = [../../Defined_Terms.cmacc];
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

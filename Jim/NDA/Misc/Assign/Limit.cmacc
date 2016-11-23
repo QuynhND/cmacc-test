@@ -8,7 +8,7 @@ $ P1_sec = "{{_.P2_Handle}} will not assign or transfer any rights or obligation
 
 $ Sec = "<b>{{Ti}}</b></br>{{sec}}";
 
-$ sec ="<ol><li><b>Mutual_sec</b>:<br>{{Mutual_sec}}<li><b>P1_sec</b>:<br>{{P1_sec}}<li><b>P2_sec</b>:<br>{{P2_sec}}";
+$ sec ="<ol><li><b>Mutual_sec</b>:<br>{{Mutual_sec}}<li><b>P1_sec</b>:<br>{{P1_sec}}<li><b>P2_sec</b>:<br>{{P2_sec}}</ol>";
 
 $ _ = [../../Defined_Terms.cmacc]
 

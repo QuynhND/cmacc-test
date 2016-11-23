@@ -1,0 +1,9 @@
+$ Ti = "Notice of Leak";
+
+$ sec = "{{_.Receiving_Party}} will immediately notify {{_.Disclosing_Party}} upon discovery of any loss or unauthorized disclosure of {{_.Confidential_Information}}.";
+
+$ _ = [../../Defined_Terms.cmacc];
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

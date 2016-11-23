@@ -1,0 +1,41 @@
+$ This_Agreement = "**This Agreement**";
+
+$ this_Agreement = "**this Agreement**";
+
+$ q = ",";
+
+$ P1_Handle = "**Party 1**";
+
+$ P2_Handle = "**Party 2**";
+
+$ party = "**party**";
+
+$ parties = "**parties**";
+
+<<<<<<< HEAD
+$ Disclosing_Party ="<b>Disclosing Party</b>";
+
+$ Receiving_Party ="<b>Receiving Party</b>";
+
+$ Confidential_Information = "<b>Confidential Information</b>";
+
+$ Confidential_Information_of_Disclosing_Party = "{{Confidential_Information}} of {{Disclosing_Party}}";
+
+$ Confidentiality_Engagement ="<b>Confidentiality Engagement</b>";
+
+$ Confidentiality_Engagements ="<b>Confidentiality Engagements</b>";
+
+$ Project_Assignment ="<b>Project Assignment</b>";
+=======
+$ Project_Assignment = "**Project Assignment**";
+>>>>>>> mdangear/master
+
+$ Client = "**Client**";
+
+<<<<<<< HEAD
+$ Consultant = "<b>Consultant</b>";
+
+$ Purpose = "<b>Purpose</b>";
+=======
+$ Consultant = "***Consultant***";
+>>>>>>> mdangear/master

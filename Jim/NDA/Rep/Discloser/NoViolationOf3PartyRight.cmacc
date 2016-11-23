@@ -1,0 +1,9 @@
+$ Ti = "Representation Against Violation of Third-Party Intellectual Property Rights ";
+
+$ sec = "{{_.Disclosing_Party}} represents that its communication of {{_.Confidential_Information}} to {{_.Receiving_Party}} does not violate any law or proprietary rights of, or agreement with, any third party.";
+
+$ _ = [../../Defined_Terms.cmacc];
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

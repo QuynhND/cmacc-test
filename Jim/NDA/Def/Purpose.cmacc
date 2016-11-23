@@ -1,0 +1,9 @@
+$ Ti = "{{_.Purpose}}";
+
+$ sec = "\"{{_.Purpose}}\" means the purpose of the relationships between the {{_.parties}} expressed in the Recitals of {{_.this_Agreement}}.";
+
+$ _ = [../Defined_Terms.cmacc];
+
+$ Sec= "<b>{{Ti}}</b><br>{{sec}}";
+
+{{Sec}}

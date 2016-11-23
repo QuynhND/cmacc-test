@@ -1,0 +1,19 @@
+$ This_Agreement = "**This Agreement**";
+
+$ this_Agreement = "**this Agreement**";
+
+$ q = ",";
+
+$ P1_Handle = "**Party 1**";
+
+$ P2_Handle = "**Party 2**";
+
+$ party = "**party**";
+
+$ parties = "**parties**";
+
+$ Project_Assignment = "**Project Assignment**";
+
+$ Client = "**Client**";
+
+$ Consultant = "***Consultant***";

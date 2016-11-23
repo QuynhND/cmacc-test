@@ -1,0 +1,5 @@
+$ Sec = "There is a town in {{Town_Name}}.";
+
+$ Town_Name = "Detroit";
+
+{{Sec}}

@@ -17,4 +17,3 @@ $ adr_Type = "adr_Type";
 $ pron = [../Form/_sing.cmacc];
 
 $ gender = [./gender/_gender.cmacc];
-

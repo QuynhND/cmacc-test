@@ -2,9 +2,13 @@
 
 Sample files for Cmacc
 
-Files are working with the cmacc-compiler that can be downloaded from https://github.com/wilmveel/cmacc-compiler.
+Files are working with the cmacc-compiler that can be downloaded from https://github.com/wilmveel/cmacc-compiler and with the Visual Studio Code plugin.
 
-To install the cmacc-compiler (requires node.js installed)
+If you are using Visual Studio Code (easiest option to experiment) you can get the plugin from the marketplace (search for CMACC).
+Also accessible from here: https://marketplace.visualstudio.com/items?itemName=wilmveel.cmacc-vscode.
+Use Ctrl+Shft H to preview docs
+
+If you want to install the cmacc-compiler (requires node.js installed):
 
 ```
 npm install
@@ -16,11 +20,12 @@ then
 sudo npm link
 ```
 
-Syntax is similar to the syntax used for the electron editor, it is JSON compatible. Files can be edited using a regular code editor. There is a Visual Studio Code plugin that will allow you to preview the files by pressing Ctrl+Shft+h, that is available here: https://marketplace.visualstudio.com/items?itemName=wilmveel.cmacc-vscode.
+Syntax is similar to the syntax used for the electron editor, it is JSON compatible. 
+Files can be edited using a regular code editor. 
 
 * Pros: editor can be installed easily (dmg for Mac), and the text can be easily be previewed, so you can easily spot issues. And you do not have to enter HTML, the text can have carriage returns, indentation etc natively
  
-* Cons: Nothing too bad, but you have to declare all parameters and carry them over the keys from one file to another if you want to set them later in the process. It can be seen as a good thing actually because it makes it easier to track what is coming from where.
+* Cons: You have to declare all parameters and carry them over the keys from one file to another if you want to set them later in the process. It can be seen as a good thing actually because it makes it easier to track what is coming from where.
 
 This is still early stage but it is worth exploring and feel free to provide feedback as you play with it.
 
@@ -50,7 +55,6 @@ In the example above, the value for the key would be called by refering to file.
 Using the example above, this would be:
 {{key1}} or {{file.key1}}
 
-
 * The value within a linked file can be a value or another file.
 
 For example see the HelloWorld.cmacc file in this repo:
@@ -65,8 +69,14 @@ $ name_Full = [../ID/_person_full.cmacc] => {
 {{person.gender.His_Her}} name is {{name_Full}} and {{person.gender.he_she}} lives in {{person.city}}
 ```
 
+* Note that when you call parameters from other files, the list of docs to refer to can become long. When it is the case it is possible to set a parameter to shorten them all. For example:
+if my seller info comes from a previous doc: ordered.order.seller
+I can set $ seller = ordered.order.seller
+Then I can call the seller's name:
+seller.name_Full instead of ordered.order.seller.name_Full
+
 # Run test
-To install cmacc-compiler
+If you are using the compiler, install cmacc-compiler
 
 ```
 npm install
@@ -85,6 +95,14 @@ Or you can edit the files in Visual Studio Code and do Ctrl+Shft+h to preview th
 
 # Best practices
 
+## naming conventions
+
+I like to use small caps for files and variables. If the variable is composed of several words, then I use a capital letter for the following word.
+For example $ small_Cap
+
+Careful: there are some reserved words that cannot be used for file names, otherwise you will get errors.
+A list of these reserved words is here: https://mathiasbynens.be/notes/reserved-keywords
+
 ## Addresses
 Addresses are in Geo. A reference to an address is a reference to a geo.cmacc file located in a given Country > State > County > City > Street > Number directory.
 The way to display an address is by using the _adr_12.cmacc file.
@@ -92,11 +110,11 @@ So 55 Broadway St, Cmabridge, MA 02142 is a geo.cmacc file created in USA > MA >
 The file looks like this: 
 
 ```
-Street_Num = "55";
+street_Num = "55";
 
-Zip = "02142";
+zip = "02142";
 
-Street = [../../BroadwaySt.cmacc];
+street = [../../BroadwaySt.cmacc];
 ```
 
 Note that the file references BroadwaySt.cmacc, which contains the info for the street:
@@ -168,6 +186,7 @@ Example of these generic forms are _entity.cmacc, _individual.cmacc, _entity_NEA
 
 Generic forms related to gender are kept in the ID folder for now.
 he.cmacc, she.cmacc and maybe it.cmacc at some point (IoT)
+For French we have similar things: _il.cmacc _elle,cmacc etc.
 
 Generic forms related to pronouns are kept in the Country folder. This allows to build documents that can then be customize to reflect the sex of the person, or whether they are for a group (we) or for an individual (I). So we have _pron.cmacc, _plur.cmacc, _sing.cmacc, and generic forms like signature blocks, that can be re-used from one document to the other: _sign_Block_2.cmacc, _sign.cmacc etc.
 

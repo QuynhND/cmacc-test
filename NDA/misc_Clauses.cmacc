@@ -15,25 +15,25 @@ $ usexport = [./usexport.cmacc];
 $ waive = [./waive.cmacc];
 
 
-<h3>{{Xnum}}. Miscellaneous</h3>
+### {{Xnum}}. Miscellaneous
 
-<h4>{{Xnum}}.1. Amendment</h4>
+#### {{Xnum}}.1. Amendment
 {{amend}}
 
-<h4>{{Xnum}}.2. Successors and Assigns</h4>
+#### {{Xnum}}.2. Successors and Assigns
 {{assign}}
 
-<h4>{{Xnum}}.3. Entire Agreement</h4>
+#### {{Xnum}}.3. Entire Agreement
 {{entire.base}}
 
-<h4>{{Xnum}}.4. Notices</h4>
+#### {{Xnum}}.4. Notices
 {{notice}}
 
-<h4>{{Xnum}}.5. Interpretation to Make Valid</h4>
+#### {{Xnum}}.5. Interpretation to Make Valid
 {{sever}}
 
-<h4>{{Xnum}}.6. U.S. Export Laws</h4>
+#### {{Xnum}}.6. U.S. Export Laws
 {{usexport}}
 
-<h4>{{Xnum}}.7. Waiver</h4>
+#### {{Xnum}}.7. Waiver
 {{waive}}

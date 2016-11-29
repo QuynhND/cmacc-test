@@ -1,6 +1,6 @@
 $ Xnum = "Xnum";
 
-<h3>{{Xnum}}. Limits</h3>
+### {{Xnum}}. Limits
 
  {{Xnum}}.1. Property of Disclosing Party
  Confidential Information is and shall remain the sole property of the Disclosing Party. 
@@ -19,6 +19,3 @@ $ Xnum = "Xnum";
 
  {{Xnum}}.6. No Warranty Regarding Information
  THE DISCLOSING PARTY IS PROVIDING CONFIDENTIAL INFORMATION ON AN "AS IS" BASIS FOR USE BY THE RECEIVING PARTY AT ITS OWN RISK. THE DISCLOSING PARTY DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OF TITLE, NON-INFRINGEMENT OF THIRD PARTY RIGHTS, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE.
-
-
-

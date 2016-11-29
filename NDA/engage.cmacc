@@ -15,10 +15,10 @@ $ care = [./care.cmacc];
 $ access = [./access_scope_NTK_Signed.cmacc];
 
 
-<h4>Engagement</h4>
+#### Engagement
 
-{{Xnum}}.{{engage_Xnum}}.{{disclose_Xnum}}. {{disclose}}
+{{Xnum}}.{{engage_Xnum}}.{{disclose_Xnum}} {{disclose}}
 
-{{Xnum}}.{{engage_Xnum}}.{{care_Xnum}}. {{care}}
+{{Xnum}}.{{engage_Xnum}}.{{care_Xnum}} {{care}}
 
-{{Xnum}}.{{engage_Xnum}}.{{access_Xnum}}. {{access}} 
+{{Xnum}}.{{engage_Xnum}}.{{access_Xnum}} {{access}} 

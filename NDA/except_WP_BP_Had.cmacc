@@ -1,10 +1,6 @@
-$ wasPublic = [./except_WP.cmacc];
-
-$ becomesPublic = [./except_BP.cmacc];
-
-$ had = [./except_Had.cmacc];
+$ except = [./except_Options.cmacc]
 
 
-1. {{wasPublic}};
-2. {{becomesPublic}}; or
-3. {{had}}.
+1. {{except.was_Public}};
+2. {{except.becomes_Public}}; or
+3. {{except.had}}.

@@ -1,13 +1,12 @@
-$ assign = [./assign_Alt.cmacc];
+$ assign = [./assign_Pref.cmacc];
 
 $ merger = [./assign_Merger.cmacc];
 
 $ benefit = [./assign_Binding.cmacc];
 
 
-<h3>Successors and Assigns</h3>
+### Successors and Assigns
 
-{{assign.notP2}} 
-{{merger.noExcept}} 
-{{benefit.P2Binding}}
-
+{{assign.not_P2}} 
+{{merger.no_Except}} 
+{{benefit.p2_Binding}}

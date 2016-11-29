@@ -1,13 +1,13 @@
-$ P1 = [./_entity.cmacc];
+$ p1 = [./_entity.cmacc];
 
-$ P2 = [./_entity.cmacc];
+$ p2 = [./_entity.cmacc];
 
-$ P1_NEA = [./_entity_NEA.cmacc] => {
- "entity" : P1
+$ p1_NEA = [./_entity_NEA.cmacc] => {
+ "entity" : p1
 };
 
-$ P2_NEA = [./_entity_NEA.cmacc] => {
- "entity" : P2
+$ p2_NEA = [./_entity_NEA.cmacc] => {
+ "entity" : p2
 };
 
 $ doc_Title = "Doc_Title";
@@ -15,20 +15,19 @@ $ doc_Title = "Doc_Title";
 $ effective_Date = "Effective_Date";
 
 
-<h2>{{doc_Title}}</h2>
+## {{doc_Title}}
 
 
 This {{doc_Title}} (the "Agreement") is made as of the {{effective_Date}} by and between the parties.
 
 By and Betweeen:
 
-{{P1_NEA}}
+{{p1_NEA}}
 
 and,
 
-{{P2_NEA}}
+{{p2_NEA}}
 
 Each a "party" and collectively the "parties."
 
 In consideration of the mutual promises contained in this Agreement and other good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, the parties agree as follows:
-

@@ -3,7 +3,7 @@ $ FM_Period = "five consecutive days";
 $ Effective_Date = "Effective_Date";
 
 
-<h3>Force Majeure</h3>
+### Force Majeure
 
  1. Definition
 
@@ -19,7 +19,6 @@ $ Effective_Date = "Effective_Date";
 
  1.5. acts or threats of terrorism.
 
-
  2. Consequences of Force Majeure Event
 
  2.1. Neither Party shall be considered in breach of this Agreement to the extent that performance of their respective obligations (excluding payment obligations) is prevented by an Event of Force Majeure that arises after the {{Effective_Date}}.
@@ -31,4 +30,3 @@ $ Effective_Date = "Effective_Date";
  2.4. If and to the extent that the Creditor Party incurs additional cost because of the non-performance of the Affected Party, the Creditor Party shall be entitled to recover from the Affected Party the amount of such cost, (the Creditor Party having taken reasonable steps to mitigate the Cost).
 
  2.5. The Contract Period shall be extended by a period of time equal to the period of interruption caused by an Event of Force Majeure.
-

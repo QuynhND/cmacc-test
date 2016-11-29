@@ -1,12 +1,12 @@
-$ ti = "<h4>Exception for Compelled Disclosure</h4>";
+$ ti = "Exception for Compelled Disclosure";
 
-$ sec0 = "Notwithstanding any other provisions of this Agreement, the Receiving Party may disclose Confidential Information, without violating the obligations of this Agreement, to the extent such disclosure is required by a valid order of a court or other governmental body having jurisdiction, and <i>provided that</i>, to the extent permitted by law the Receiving Party gives the Disclosing Party reasonable prior written notice of such disclosure and makes a reasonable effort to obtain, or to assist the Disclosing Party in obtaining, a protective order preventing or limiting the disclosure and/or requiring that the Confidential Information so disclosed be used only for the purposes required by the law, regulation, or order.";
+$ sec_0 = "Notwithstanding any other provisions of this Agreement, the Receiving Party may disclose Confidential Information, without violating the obligations of this Agreement, to the extent such disclosure is required by a valid order of a court or other governmental body having jurisdiction, and <i>provided that</i>, to the extent permitted by law the Receiving Party gives the Disclosing Party reasonable prior written notice of such disclosure and makes a reasonable effort to obtain, or to assist the Disclosing Party in obtaining, a protective order preventing or limiting the disclosure and/or requiring that the Confidential Information so disclosed be used only for the purposes required by the law, regulation, or order.";
 
-$ sec1 = "Notwithstanding the above, the Receiving Party may disclose certain Confidential Information of the Disclosing Party, without violating the obligations of this Agreement, to the extent such disclosure is required by a valid order of a court or other governmental body having jurisdiction, provided that the Receiving Party provides the Disclosing Party with reasonable prior written notice of such disclosure and makes a reasonable effort to obtain, or to assist the Disclosing Party in obtaining, a protective order preventing or limiting the disclosure and/or requiring that the Confidential Information so disclosed be used only for the purposes for which the law or regulation required, or for which the order was issued.";
+$ sec_1 = "Notwithstanding the above, the Receiving Party may disclose certain Confidential Information of the Disclosing Party, without violating the obligations of this Agreement, to the extent such disclosure is required by a valid order of a court or other governmental body having jurisdiction, provided that the Receiving Party provides the Disclosing Party with reasonable prior written notice of such disclosure and makes a reasonable effort to obtain, or to assist the Disclosing Party in obtaining, a protective order preventing or limiting the disclosure and/or requiring that the Confidential Information so disclosed be used only for the purposes for which the law or regulation required, or for which the order was issued.";
 
 
-{{ti}}
+#### {{ti}}
 
-{{sec0}}
+{{sec_0}}
 
-{{sec1}}
+{{sec_1}}

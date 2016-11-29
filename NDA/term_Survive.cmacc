@@ -5,7 +5,7 @@ $ notice_Period_TimeSpan = "NoticePeriod_TimeSpan";
 $ term_Xnum = "term_Xnum";
 
 
-<h3>{{term_Xnum}}. Termination</h3>
+### {{term_Xnum}}. Termination
 
 {{term_Xnum}}.1. Term
 

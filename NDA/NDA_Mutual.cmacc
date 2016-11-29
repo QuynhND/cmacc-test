@@ -6,20 +6,28 @@ $ sign_Place = "sign_Place";
 
 $ sign_Date = "sign_Date";
 
-$ P1 = [../ID/gerrys_grapes_llc.cmacc];
+$ p1 = [../ID/gerrys_grapes_llc.cmacc];
 
-$ P2 = [../ID/safe_hands_inc.cmacc];
+$ p2 = [../ID/safe_hands_inc.cmacc];
+
+$ subject = "the current, future, and proposed products and services of";
+
+$ info_Types = "proprietary and confidential information, ideas, techniques, sketches, drawings, works of authorship, models, inventions, know-how, processes, apparatuses, equipment, algorithms, software programs, software source documents, and formulae";
+
+$ info_Examples = "research, experimental work, development, design details and specifications, engineering, financial information, procurement requirements, purchasing, manufacturing, customer lists, investors, employees, business and contractual relationships, business forecasts, sales and merchandising, and marketing plans";
+
+// document sections
 
 $ intro = [../US/_agt_Intro_2Parties.cmacc] => {
   "doc_Title" : doc_Title,
   "effective_Date" : effective_Date,
-  "P1" : P1,
-  "P2" : P2
+  "P1" : p1,
+  "P2" : p2
 };
 
 $ conf_Xnum = "1";
 
-$ conf = [./conf.cmacc] => {
+$ confid = [./confid.cmacc] => {
   "Xnum" : conf_Xnum
 };
 
@@ -41,7 +49,7 @@ $ notice_Period_TimeSpan = "thirty (30) days";
 
 $ life_End_YMD = "Life_End_YMD";
 
-$ term = [./term.cmacc] => {
+$ term = [./term_Survive.cmacc] => {
   "life_End_YMD" : life_End_YMD,
   "notice_Period_TimeSpan" : notice_Period_TimeSpan,
   "term_Xnum" : term_Xnum
@@ -61,22 +69,22 @@ $ remedy = [./remedy.cmacc] => {
 
 $ misc_Xnum = "7";
 
-$ misc = [./misc.cmacc] => {
+$ misc = [./misc_Clauses.cmacc] => {
   "Xnum" : misc_Xnum
 };
 
 $ closing = [../US/_agt_End_2Parties.cmacc] => {
-  "party1" : P1.sign_Rep,
-  "party1_Role" : P1.sign_RepTitle,
-  "party2" : P2.sign_Rep,
-  "party2_Role" : P2.sign_RepTitle,
+  "party1" : p1.sign_Rep,
+  "party1_Role" : p1.sign_RepTitle,
+  "party2" : p2.sign_Rep,
+  "party2_Role" : p2.sign_RepTitle,
   "sign_Place" : sign_Place,
   "sign_Date" : sign_Date
 };
 
 {{intro}}
 
-{{conf}}
+{{confid}}
 
 {{limit}}
 

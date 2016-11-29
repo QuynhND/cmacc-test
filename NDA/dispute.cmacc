@@ -5,7 +5,7 @@ $ law = [./law.cmacc];
 $ forum = [./court.cmacc];
 
 
-<h3>{{Xnum}}. Dispute Resolution</h3>
+### {{Xnum}}. Dispute Resolution
 
 {{Xnum}}.1. {{law}}
 

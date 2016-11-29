@@ -13,5 +13,4 @@ $ Alt2_sec= "{{The_Receiving_Party}}'s obligations with respect to all {{Confide
 $ Alt3_sec = "{{The_Receiving_Party}}'s obligations with respect to each element of {{Confidential_Information_of_the_Disclosing_Party}} will terminate on the earlier of {{DurationOfConfidentiality}} after the time such element was communicated by {{the_Disclosing_Party}} to {{the_Receiving_Party}} or when all such information has become subject to an exclusion from confidentiality pursuant to {{Conf_Except_Xref}}.";
 
 
-<h3>Term of Confidentiality</h3>
-
+### Term of Confidentiality

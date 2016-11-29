@@ -1,10 +1,12 @@
-$ assign_Pref = [./assign_Pref.cmacc];
+$ assign = [./assign_Pref.cmacc];
 
 $ merger = [./assign_Merger.cmacc];
 
 $ benefit = [./assign_Binding.cmacc];
 
 
-{{assign_Pref.none}} 
-{{merger.noExcept}} 
+### Successors and Assigns
+
+{{assign.none}} 
+{{merger.no_Except}} 
 {{benefit.mutual}}

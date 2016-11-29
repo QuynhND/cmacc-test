@@ -10,14 +10,14 @@ $ sign_Place = "sign_Place";
 
 $ sign_Date = "sign_Date";
 
-$ signParty1 = [../US/_sign.cmacc] => {
+$ sign_Party1 = [../US/_sign.cmacc] => {
  "role" : party1_Role,
  "person" : party1,
  "sign_Place" : sign_Place,
  "sign_Date" : sign_Date
 };
 
-$ signParty2 = [../US/_sign.cmacc] => {
+$ sign_Party2 = [../US/_sign.cmacc] => {
  "role" : party2_Role,
  "person" : party2,
  "sign_Place" : sign_Place,
@@ -30,16 +30,7 @@ IN WITNESS WHEREOF, the undersigned have caused this instrument to be duly execu
 
 <table width="100%">
 <tr>
-<td>{{signParty1}}</td>
-<td>{{signParty2}}</td>
+<td>{{sign_Party1}}</td>
+<td>{{sign_Party2}}</td>
 </tr>
 </table>
-
-
-
-
-
-
-
-
-

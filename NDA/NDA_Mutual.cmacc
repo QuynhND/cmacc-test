@@ -21,8 +21,8 @@ $ info_Examples = "research, experimental work, development, design details and 
 $ intro = [../US/_agt_Intro_2Parties.cmacc] => {
   "doc_Title" : doc_Title,
   "effective_Date" : effective_Date,
-  "P1" : p1,
-  "P2" : p2
+  "p1" : "{{p1}}",
+  "p2" : "{{p2}}"
 };
 
 $ conf_Xnum = "1";

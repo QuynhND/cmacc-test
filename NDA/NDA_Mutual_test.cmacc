@@ -1,0 +1,18 @@
+$ doc_Title = "Non Disclosure Agreement";
+
+$ effective_Date = "Effective_Date";
+
+$ p1 = [../ID/gerrys_grapes_llc.cmacc];
+
+$ p2 = [../ID/safe_hands_inc.cmacc];
+
+// document sections
+
+$ intro = [../US/_agt_Intro_2Parties.cmacc] => {
+  "doc_Title" : doc_Title,
+  "effective_Date" : effective_Date,
+  "p1" : "{{p1}}",
+  "p2" : "{{p2}}"
+};
+
+{{intro}}

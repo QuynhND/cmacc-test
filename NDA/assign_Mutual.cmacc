@@ -5,8 +5,6 @@ $ merger = [./assign_Merger.cmacc];
 $ benefit = [./assign_Binding.cmacc];
 
 
-### Successors and Assigns
-
 {{assign.none}} 
 {{merger.no_Except}} 
 {{benefit.mutual}}

@@ -1,6 +1,6 @@
 $ doc_Title = "Non Disclosure Agreement";
 
-$ effective_Date = "Effective_Date";
+$ effective_Date = "DD/MM/YY";
 
 $ sign_Place = "sign_Place";
 
@@ -29,6 +29,9 @@ $ conf_Xnum = "1";
 
 $ confid = [./confid.cmacc] => {
   "Xnum" : conf_Xnum
+  "subject" : subject,
+  "info_Types" : info_Types,
+  "info_Examples" : info_Examples
 };
 
 $ limit_Xnum = "2";

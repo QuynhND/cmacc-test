@@ -2,9 +2,9 @@ $ approved_Form = "in a form approved in advance by the Disclosing Party";
 
 $ as_Restrictive = "confidentiality obligations at least as restrictive as those contained in this Agreement";
 
-$ individual = "<h3>Access</h3>The Receiving Party is an individual and will not permit any other person to have access to Confidential Information of the Disclosing Party.";
+$ individual = "The Receiving Party is an individual and will not permit any other person to have access to Confidential Information of the Disclosing Party.";
 
-$ limit = "<h3>Access</h3>The Receiving Party will limit access to the Confidential Information of the Disclosing Party to only those of the Receiving Party's employees or authorized representatives";
+$ limit = "The Receiving Party will limit access to the Confidential Information of the Disclosing Party to only those of the Receiving Party's employees or authorized representatives";
 
 $ need_To_Know = "who have a need to know";
 

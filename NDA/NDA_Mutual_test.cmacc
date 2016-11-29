@@ -2,17 +2,100 @@ $ doc_Title = "Non Disclosure Agreement";
 
 $ effective_Date = "Effective_Date";
 
+$ sign_Place = "sign_Place";
+
+$ sign_Date = "sign_Date";
+
 $ p1 = [../ID/gerrys_grapes_llc.cmacc];
 
 $ p2 = [../ID/safe_hands_inc.cmacc];
 
-// document sections
+$ subject = "the current, future, and proposed products and services of";
+
+$ info_Types = "proprietary and confidential information, ideas, techniques, sketches, drawings, works of authorship, models, inventions, know-how, processes, apparatuses, equipment, algorithms, software programs, software source documents, and formulae";
+
+$ info_Examples = "research, experimental work, development, design details and specifications, engineering, financial information, procurement requirements, purchasing, manufacturing, customer lists, investors, employees, business and contractual relationships, business forecasts, sales and merchandising, and marketing plans";
+
+// document sections definition
 
 $ intro = [../US/_agt_Intro_2Parties.cmacc] => {
   "doc_Title" : doc_Title,
   "effective_Date" : effective_Date,
-  "p1" : "{{p1}}",
-  "p2" : "{{p2}}"
+  "p1" : p1,
+  "p2" : p2
+};
+
+$ conf_Xnum = "1";
+
+$ confid = [./confid.cmacc] => {
+  "Xnum" : conf_Xnum
+};
+
+$ limit_Xnum = "2";
+
+$ limit = [./limit.cmacc] => {
+  "Xnum" : limit_Xnum
+};
+
+$ rep_Xnum = "3";
+
+$ rep = [./3rdparty.cmacc] => {
+  "Xnum" : rep_Xnum
+};
+
+$ term_Xnum = "4";
+
+$ notice_Period_TimeSpan = "thirty (30) days";
+
+$ life_End_YMD = "Life_End_YMD";
+
+$ term = [./term_Survive.cmacc] => {
+  "life_End_YMD" : life_End_YMD,
+  "notice_Period_TimeSpan" : notice_Period_TimeSpan,
+  "term_Xnum" : term_Xnum
+};
+
+$ dispute_Xnum = "5";
+
+$ dispute = [./dispute.cmacc] => {
+  "Xnum" : dispute_Xnum
+};
+
+$ remedy_Xnum = "6";
+
+$ remedy = [./remedy.cmacc] => {
+  "Xnum" : remedy_Xnum
+};
+
+$ misc_Xnum = "7";
+
+$ misc = [./misc_Clauses.cmacc] => {
+  "Xnum" : misc_Xnum
+};
+
+$ closing = [../US/_agt_End_2Parties.cmacc] => {
+  "party1" : p1.sign_Rep,
+  "party1_Role" : p1.sign_RepTitle,
+  "party2" : p2.sign_Rep,
+  "party2_Role" : p2.sign_RepTitle,
+  "sign_Place" : sign_Place,
+  "sign_Date" : sign_Date
 };
 
 {{intro}}
+
+{{confid}}
+
+{{limit}}
+
+{{rep}}
+
+{{term}}
+
+{{dispute}}
+
+{{remedy}}
+
+{{misc}}
+
+{{closing}}

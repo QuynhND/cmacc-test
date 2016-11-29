@@ -1,3 +1,5 @@
 $ scope = [./access_Options.cmacc]
 
-{{scope.limit}} {{scope.ntk}} and {{scope.signed}}.
+### Access
+
+{{scope.limit}} {{scope.need_To_Know}} and {{scope.signed}}.

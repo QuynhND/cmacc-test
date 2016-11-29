@@ -1,12 +1,10 @@
 $ Xnum = "Xnum";
 
-$ disclose_Type = [./define_Confid.cmacc];
+$ subject = "subject";
 
-$ subject = "the current, future, and proposed products and services of";
+$ info_Types = "info_Types";
 
-$ info_Types = "proprietary and confidential information, ideas, techniques, sketches, drawings, works of authorship, models, inventions, know-how, processes, apparatuses, equipment, algorithms, software programs, software source documents, and formulae";
-
-$ info_Examples = "research, experimental work, development, design details and specifications, engineering, financial information, procurement requirements, purchasing, manufacturing, customer lists, investors, employees, business and contractual relationships, business forecasts, sales and merchandising, and marketing plans";
+$ info_Examples = "info_Examples";
 
 $ conf_Infos = [./confid_Infos.cmacc] => {
  "subject" : subject,
@@ -16,9 +14,13 @@ $ conf_Infos = [./confid_Infos.cmacc] => {
 
 $ def_Xnum = "1";
 
+$ define_Options = [./define_Options.cmacc];
+
+$ disclose_Type = "{{define_Options.mutual}}";
+
 $ def = [./define_Confid.cmacc] => {
  "conf_Infos" : conf_Infos,
- "disclose_Type" : disclose_Type.mutual
+ "disclose_Type" : disclose_Type
 };
 
 $ engage_Xnum = "2";

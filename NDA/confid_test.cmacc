@@ -16,11 +16,11 @@ $ def_Xnum = "1";
 
 $ define_Options = [./define_Options.cmacc];
 
-$ disclose_Type = "{{define_Options.mutual}}";
-
 $ define_Confid = [./define_Confid.cmacc] => {
  "conf_Infos" : conf_Infos,
- "disclose_Type" : disclose_Type
+ "disclose_Type" : define_Options.mutual
 };
+
+{{conf_Infos}}
 
 {{define_Confid}}

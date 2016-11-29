@@ -6,8 +6,6 @@ $ info_Types = "info_Types";
 
 $ info_Examples = "info_Examples";
 
-$ def_Xnum = "1";
-
 $ conf_Infos = [./confid_Infos.cmacc] => {
  "subject" : subject,
  "info_Types" : info_Types,
@@ -18,13 +16,11 @@ $ def_Xnum = "1";
 
 $ define_Options = [./define_Options.cmacc];
 
-$ define_Mutual = "{{define_Options.mutual}}";
+$ disclose_Type = "{{define_Options.mutual}}";
 
-$ def = [./define_Confid.cmacc] => {
+$ define_Confid = [./define_Confid.cmacc] => {
  "conf_Infos" : conf_Infos,
- "disclose_Type" : define_Mutual
+ "disclose_Type" : disclose_Type
 };
 
-{{disclose_Type}}
-{{def}}
-{{conf_Infos}}
+{{define_Confid}}

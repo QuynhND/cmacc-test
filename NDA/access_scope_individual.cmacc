@@ -1,4 +1,3 @@
-$ scope = [./access_Individual.cmacc];
+$ scope = [./access_Options.cmacc];
 
-
-{{scope}}
+{{scope.individual}}

@@ -6,7 +6,7 @@ $ leak = [./leak.cmacc];
 
 $ injunction = [./injunction.cmacc];
 
-### {{Xnum}}. Remedies
+<h3>{{Xnum}}. Remedies</h3>
 
 {{Xnum}}.1. {{return1}}
 {{Xnum}}.2. {{leak}}

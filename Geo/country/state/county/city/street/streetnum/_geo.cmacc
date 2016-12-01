@@ -1,3 +1,5 @@
+$ name = "streetname";
+
 $ streetnum = "streetnum";
 
 $ zip = "zip";

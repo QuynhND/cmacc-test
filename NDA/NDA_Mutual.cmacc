@@ -28,7 +28,7 @@ $ intro = [../US/_agt_Intro_2Parties.cmacc] => {
 $ conf_Xnum = "1";
 
 $ confid = [./confid.cmacc] => {
-  "Xnum" : conf_Xnum
+  "Xnum" : conf_Xnum,
   "subject" : subject,
   "info_Types" : info_Types,
   "info_Examples" : info_Examples

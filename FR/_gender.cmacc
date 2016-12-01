@@ -1,0 +1,13 @@
+$ il_elle = "il(elle)";
+
+$ Il_Elle = "Il(Elle)";
+
+$ son_sa = "son/sa";
+
+$ Male_Female = "Homme(Femme)";
+		
+$ male_female = "homme(femme)";
+				
+$ Mr_Ms = "M.(Mme.)";
+
+$ term_e = "(e)";

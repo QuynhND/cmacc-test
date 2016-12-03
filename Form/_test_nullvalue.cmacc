@@ -1,0 +1,16 @@
+$ test1 = "";
+
+$ test2 = "e";
+
+$ test_Local = [./_test_nullvalue_Remote.cmacc];
+
+$ test_Remote = [../ID/gender/_test_il_elle.cmacc];
+
+in french, male no "e" at the end of an adjective: enchanté{{test1}}
+female, "e" at the end: enchanté{{test2}}
+
+in french, male no "e" at the end of an adjective: enchanté{{test_Local.test1}}
+female, "e" at the end: enchanté{{test_Local.test2}}
+
+in french, male no "e" at the end of an adjective: enchanté{{test_Remote.test1}}
+female, "e" at the end: enchanté{{test_Remote.test2}}

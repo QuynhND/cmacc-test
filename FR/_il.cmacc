@@ -10,4 +10,4 @@ $ male_female = "homme";
 				
 $ Mr_Ms = "M.";
 
-$ term_e = "_";
+$ term_e = "";

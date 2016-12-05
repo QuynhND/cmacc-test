@@ -1,0 +1,11 @@
+$ content_IPFS = [https://ipfs.io/ipfs/QmZbYSB1wYSDp6AG8kj9FJBFNwwoLWpuND7AnmMGfjiG2x];
+
+$ content_Dropbox = [https://www.dropbox.com/sh/p0cekf0rmzez5cs/AAAIlSWHVa0C1pB8xbm-lTqJa?dl=0];
+
+$ content_Github = [https://github.com/mdangear/cmacc-test/blob/master/Form/_test_Textonly.cmacc];
+
+//{{content_IPFS}}
+
+//{{content_Dropbox}}
+
+{{content_Github}}

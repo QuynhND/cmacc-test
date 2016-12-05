@@ -2,6 +2,8 @@ $ test1 = "";
 
 $ test2 = "e";
 
+$ test3 = "_";
+
 $ test_Local = [./_test_nullvalue_Remote.cmacc];
 
 $ test_Remote = [../ID/gender/_test_il_elle.cmacc];
@@ -9,6 +11,8 @@ $ test_Remote = [../ID/gender/_test_il_elle.cmacc];
 $ test_Male = [../ID/MarcDangeard.cmacc];
 
 $ test_Female = [../ID/roberta_robinson.cmacc];
+
+$ test_Generic = [../FR/_individual.cmacc];
 
 
 local: in french, male no "e" at the end of an adjective: enchanté{{test1}}
@@ -20,5 +24,6 @@ female, "e" at the end: enchanté{{test_Local.test2}}
 remote - different folder: in french, male no "e" at the end of an adjective: enchanté{{test_Remote.test1}}
 female, "e" at the end: enchanté{{test_Remote.test2}}
 
-remote - person gender test: in french, male no "e" at the end of an adjective: enchanté{{test_Male.ilelle.term_e}}
-female, "e" at the end: enchanté{{test_Female.ilelle.term_e}}
+remote - generic gender test: in french, "e" or no "e" at the end of an adjective: enchanté{{test_Generic.ilelle.term_e}}
+
+passthrough - in french, "e" or no "e" at the end of an adjective: enchanté{{test3}}

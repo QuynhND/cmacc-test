@@ -16,3 +16,4 @@ $ pron = [../Form/_sing.cmacc];
 
 $ gender = [../ID/gender/_gender.cmacc];
 
+$ ilelle = [../FR/_gender.cmacc];

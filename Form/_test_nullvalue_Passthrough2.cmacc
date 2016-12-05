@@ -1,0 +1,7 @@
+$ test3 = "";
+
+$ test = [./_test_nullvalue.cmacc] => {
+    "test3" : test3
+};
+
+{{test}}

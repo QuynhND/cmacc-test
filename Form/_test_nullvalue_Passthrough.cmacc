@@ -1,0 +1,7 @@
+$ test_Person = [../ID/MarcDangeard.cmacc];
+
+$ test = [./_test_nullvalue.cmacc] => {
+    "test_Generic" : test_Person
+};
+
+{{test}}

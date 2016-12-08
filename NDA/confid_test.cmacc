@@ -6,6 +6,7 @@ $ info_Types = "info_Types";
 
 $ info_Examples = "info_Examples";
 
+// setting conf_Infos
 $ conf_Infos = [./confid_Infos.cmacc] => {
  "subject" : subject,
  "info_Types" : info_Types,
@@ -16,6 +17,7 @@ $ def_Xnum = "1";
 
 $ define_Options = [./define_Options.cmacc];
 
+// passing conf_Infos to define_Confid - this is a part that is not working today
 $ define_Confid = [./define_Confid.cmacc] => {
  "conf_Infos" : conf_Infos,
  "disclose_Type" : define_Options.mutual

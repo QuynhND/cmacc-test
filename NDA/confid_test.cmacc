@@ -21,6 +21,8 @@ $ define_Confid = [./define_Confid.cmacc] => {
  "disclose_Type" : define_Options.mutual
 };
 
+// printing conf_Infos
 {{conf_Infos}}
 
+// printing define_Confid, that is using that same info as above (item #3 in the list), except that it is not printing
 {{define_Confid}}

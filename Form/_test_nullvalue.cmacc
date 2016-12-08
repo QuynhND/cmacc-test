@@ -24,6 +24,6 @@ female, "e" at the end: enchanté{{test_Local.test2}}
 remote - different folder: in french, male no "e" at the end of an adjective: enchanté{{test_Remote.test1}}
 female, "e" at the end: enchanté{{test_Remote.test2}}
 
-remote - generic gender test: in french, "e" or no "e" at the end of an adjective: enchanté{{test_Generic.ilelle.term_e}}
+remote generic or passthrough - gender test: in french, "e" or no "e" at the end of an adjective: enchanté{{test_Generic.ilelle.term_e}}
 
 passthrough - in french, "e" or no "e" at the end of an adjective: enchanté{{test3}}

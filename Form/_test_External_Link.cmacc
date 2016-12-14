@@ -1,3 +1,5 @@
+//$ content_IPFS = [https://ipfs.io/ipfs/QmZbYSB1wYSDp6AG8kj9FJBFNwwoLWpuND7AnmMGfjiG2x];
+
 $ content_Github = [https://raw.githubusercontent.com/mdangear/cmacc-test/master/Form/demo.cmacc];
 
 {{content_Github}}

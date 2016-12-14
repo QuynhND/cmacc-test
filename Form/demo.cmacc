@@ -1,1 +1,4 @@
-Mon nom est Marc et je vis a Paris
+$ nom = "Pierre";
+$ ville = "Londres";
+
+Mon nom est {{nom}} et je vis a {{ville}}

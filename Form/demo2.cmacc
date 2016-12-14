@@ -1,0 +1,10 @@
+$ nom = "Louis";
+
+$ ville = "Lisbonne";
+
+$ phrase = [./demo.cmacc] => {
+    "nom" : nom,
+    "ville" : ville
+};
+
+{{phrase}}

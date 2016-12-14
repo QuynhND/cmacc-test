@@ -4,8 +4,4 @@
 
 $ content_Github = [https://raw.githubusercontent.com/mdangear/cmacc-test/master/Form/demo.cmacc];
 
-//{{content_IPFS}}
-
-//{{content_Dropbox}}
-
 {{content_Github}}

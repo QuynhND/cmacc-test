@@ -1,9 +1,11 @@
 $ seller = [../US/_entity.cmacc];
+// seller
 
 $ purchaser = [../US/_entity.cmacc];
+// purchaser
 
 $ escrow = [../US/_entity.cmacc];
-
+//
 $ arbitrator = [../US/_entity.cmacc];
 
 $ shipper = [../US/_entity.cmacc];
@@ -102,6 +104,7 @@ Submission of Dispute by Escrow Agent. If the Seller and the Purchaser disagree 
 Fee for Escrow Agent. For its services, the Escrow Agent shall receive {{Escrow_Fee_USD}}.
 
 Fee for Arbitrator. In the event that the Arbitrator is notified of a Claim or otherwise informed of a dispute, the Arbitrator shall receive {{Arb_Fee_USD}}.
+// action: if then contract code ipfs://...
 
 Successors. The rights created by this Escrow Agreement shall inure to the benefit of, and the obligations created hereby shall be binding upon the successors and assigns of the Escrow Agent and all parties to this Escrow Agreement.
 

@@ -1,0 +1,3 @@
+$ content = "Mon nom est Marc et je vis a Paris";
+
+{{content}}
